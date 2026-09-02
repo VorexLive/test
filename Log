@@ -1,0 +1,1565 @@
+=====================================================================
+== F:\SteamLibrary\steamapps\common\DayZServer\DayZServer_x64.exe
+== DayZServer_x64.exe -config=serverDZ.cfg -port=2302 -profiles=profiles -doLogs -adminLog -netLog "-mod=@CF;@DabsFramework;@VPPAdminTools;@VPPAdminTools RU Translate;@DayZ-Expansion-Core;@DayZ-Expansion-Licensed;@DayZ-Expansion-Vehicles;@VorexAICompanion;@VorexHeliTaxi"
+=====================================================================
+Exe timestamp: 2026/08/12 23:04:25
+Current time:  2026/09/02 22:38:03
+Version 1.29.163709
+=====================================================================
+
+22:38:03.974 String "STR_server_shutdown" listed twice in "Global"
+22:38:03.990 Localization not present: STR_DATE_FORMAT_SHORT
+22:38:03.990 Localization not present: STR_TIME_FORMAT
+22:38:03.990 Localization not present: STR_CONFIG_CONTROLLER_NORMAL_LOOK
+22:38:03.990 Localization not present: STR_CONFIG_CONTROLLER_REVERSED_LOOK
+22:38:03.990 Localization not present: STR_MP_VALIDERROR
+22:38:03.990 Localization not present: STR_MP_CONNECTION_LOOSING
+22:38:03.990 Localization not present: STR_MSG_MP_NO_PASSWORD
+22:38:03.990 Localization not present: STR_MSG_LAUNCH_GAME
+22:38:03.990 Localization not present: STR_LOAD_INIT
+22:38:03.990 Localization not present: STR_LOAD_WORLD
+22:38:03.990 Localization not present: STR_LOAD_GAME
+22:38:03.990 Localization not present: STR_SAVE_GAME
+22:38:03.990 Localization not present: STR_MP_CONNECT
+22:38:03.990 Localization not present: STR_MP_DISCONNECT
+22:38:03.990 Localization not present: STR_MP_CONNECTING
+22:38:03.990 Localization not present: STR_MP_TIMEOUT
+22:38:03.990 Localization not present: STR_DISP_CLIENT_TEXT_EDIT
+22:38:03.990 Localization not present: STR_MP_LOGIN_QUEUE_FULL
+22:38:03.991 Localization not present: STR_DATE_FORMAT_SHORT
+22:38:03.991 Localization not present: STR_TIME_FORMAT
+22:38:03.991 Localization not present: STR_CONFIG_CONTROLLER_NORMAL_LOOK
+22:38:03.991 Localization not present: STR_CONFIG_CONTROLLER_REVERSED_LOOK
+22:38:03.991 Localization not present: STR_MP_VALIDERROR
+22:38:03.991 Localization not present: STR_MP_CONNECTION_LOOSING
+22:38:03.991 Localization not present: STR_MSG_MP_NO_PASSWORD
+22:38:03.991 Localization not present: STR_MSG_LAUNCH_GAME
+22:38:03.991 Localization not present: STR_LOAD_INIT
+22:38:03.991 Localization not present: STR_LOAD_WORLD
+22:38:03.991 Localization not present: STR_LOAD_GAME
+22:38:03.991 Localization not present: STR_SAVE_GAME
+22:38:03.991 Localization not present: STR_MP_CONNECT
+22:38:03.991 Localization not present: STR_MP_DISCONNECT
+22:38:03.991 Localization not present: STR_MP_CONNECTING
+22:38:03.991 Localization not present: STR_MP_TIMEOUT
+22:38:03.991 Localization not present: STR_DISP_CLIENT_TEXT_EDIT
+22:38:03.991 Localization not present: STR_MP_LOGIN_QUEUE_FULL
+22:38:04.00  Initializing stats manager.
+22:38:04.01  Stats config disabled.
+22:38:07.171 String "VSTR_TOOLTIP_TITLE_NOTICE" listed twice in "Global"
+22:38:07.187 String "STR_VPPAT_NAME" listed twice in "Global"
+22:38:07.187 String "VSTR_SESSION_DISCONNECT" listed twice in "Global"
+22:38:07.187 String "VSTR_ERROR_UPDATE_BUILDINGSET" listed twice in "Global"
+22:38:07.187 String "VSTR_ERROR_DELETE_BUILDINGSET" listed twice in "Global"
+22:38:07.187 String "VSTR_MISSING_PERM" listed twice in "Global"
+22:38:07.187 String "VSTR_UPDATED_PERM_SETTING" listed twice in "Global"
+22:38:07.187 String "VSTR_PERMS_REMOVE_USER" listed twice in "Global"
+22:38:07.187 String "VSTR_FROM_GROUP" listed twice in "Global"
+22:38:07.187 String "VSTR_ERROR_USER_SUPERADMIN" listed twice in "Global"
+22:38:07.187 String "VSTR_ERROR_INVALID_GROUP" listed twice in "Global"
+22:38:07.187 String "VSTR_PERMS_USER_INGTROUP" listed twice in "Global"
+22:38:07.188 String "VSTR_ERROR_UNKOWN_PERM" listed twice in "Global"
+22:38:07.188 String "VSTR_ERROR_NAME_MISMATCH" listed twice in "Global"
+22:38:07.188 String "VSTR_ERROR_NOT_ADMIN" listed twice in "Global"
+22:38:07.188 String "VSTR_ERROR_CANT_TARGET" listed twice in "Global"
+22:38:07.188 String "VSTR_ERROR_NO_PERM" listed twice in "Global"
+22:38:07.188 String "VSTR_PERM_LVL_LOW" listed twice in "Global"
+22:38:07.188 String "VSTR_BANNED" listed twice in "Global"
+22:38:07.188 String "VSTR_BAN_REASON" listed twice in "Global"
+22:38:07.188 String "VSTR_ERROR_BAN_PLAYER" listed twice in "Global"
+22:38:07.188 String "VSTR_KICK_PLAYER" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_SPECTATE" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_GODMODE_OFF" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_GODMODE_ON" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_REVOKE_GODMODE" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_REVOKE_GODMODE_ADMIN" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_GIVE_GODMODE" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_GIVE_GODMODE_ADMIN" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_REVOKE_AMMO" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_REVOKE_AMMO_ADMIN" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_GIVE_AMMO" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_GIVE_AMMO_ADMIN" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_RESTART_ERROR" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_RESTART_IN" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_TP_BRINGSELF_ERR" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_TP_NORETURN" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_TPSELF" listed twice in "Global"
+22:38:07.188 String "VSTR_TP_ERR_INVALID" listed twice in "Global"
+22:38:07.188 String "VSTR_DEL_SUCESS" listed twice in "Global"
+22:38:07.188 String "VSTR_ADD_SUCESS" listed twice in "Global"
+22:38:07.188 String "VSTR_EDIT_SUCESS" listed twice in "Global"
+22:38:07.188 String "VSTR_NOT_DEFINED" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_TOOLS_TOGGLE_ON" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_TOOLS_TOGGLE_OFF" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_NOTTOGGLE" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_DEL_OBJ" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_Q_DEL" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_COPY_CLIPBOARD" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_COPY_POS" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_SERVER_LOCK_OFF" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_SERVER_LOCK_ON" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_SERVER_LOCKED" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_LOGGED_IN_ADMIN" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_LOGGED_OUT_ADMIN" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_PLAYERMANAGER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_ITEMMANAGER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TELEPORTMANAGER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_COMMANDSMENU" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_SERVERMANAGER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_WEATHERMANAGER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_OBJMANAGER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_BANSMANAGER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_PERMSEDITOR" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_WEBHOOKS" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_XMLEDITOR" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_BAN_TIP" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_BANS_DETIALS" listed twice in "Global"
+22:38:07.188 String "VSTR_Q_UNBAN" listed twice in "Global"
+22:38:07.188 String "VSTR_UNBAN" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFIY_UPDATE_BAN_REASON" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFIY_ERR_BAN_NOSELECT" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFIY_UPDATE_BAN_TIME" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_SPH" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_SPG" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_SPAWNCAR" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_REFUEL" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_SPI" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_AMMO" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TPP" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TPT" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_GOTO" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_RETURN" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_BRING" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_HEAL" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_KILL" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_STRIP" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_CLEAR" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_COMMANDCONSOLE_KEYS" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_FILTER_RESTORE_TITLE" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_FILTER_RESTORE" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_CREATE_FILTER" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_FILTER_INFO" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_TITLE_DELETE" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_DEL_CONFIRM" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_TOOLTIP" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_Q_REMOVE" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_Q_REMOVE_2" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_DEL_CONFIRM_2" listed twice in "Global"
+22:38:07.188 String "VSTR_ESP_DEL_CONFIRM_3" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_UNIQUE" listed twice in "Global"
+22:38:07.188 String "VSTR_DISPLAY_PARENT" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_ITEMMGR" listed twice in "Global"
+22:38:07.188 String "VSTR_TITLE_SAVEDPRESETS" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_NOPRESET" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_NOTSELECTPRESET" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_SPAWN_PRESET" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_SPAWN_PRESET_NOPLAYER" listed twice in "Global"
+22:38:07.188 String "VSTR_ALERT_ENABLE_PHYSICS" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_PHYSICS" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_EXPORT_SET" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_DUPENAME" listed twice in "Global"
+22:38:07.188 String "VSTR_TITLE_WARNING" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_SELECT_SET" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_OBJ_DESELECT" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_OB_SELECTED" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_ATTS_SHOWING" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_NOSET_SELECTED" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_SET_INACTIVE" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_HELP_OBJMANAGER" listed twice in "Global"
+22:38:07.188 String "VSTR_TILE_DEL_USER" listed twice in "Global"
+22:38:07.188 String "VSTR_Q_REMOVE_USER_FROMGROUP" listed twice in "Global"
+22:38:07.188 String "VSTR_Q_REMOVE_USER_FROMGROUP_2" listed twice in "Global"
+22:38:07.188 String "VSTR_TITLE_EDIT_PERMS" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_PERMSLEVEL" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_PERMLVL_UPDATED" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIPE_TITLE_DELGROUP" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIPE_DELGROUP" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_CREATEGROUP" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_CREATEGROUP" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_UPDATE_PERMSGRP" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_UPDATE_PERMSGRP" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_PERMS_REQUSTADD" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_ADD_PLAYERSPERMS" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_PERMS_UPD_GRP" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_PERMS_UPD_GRP_2" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_GRPNAME" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ALREADY_EXISTS" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_USER_GRP_CREATED" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_SUCCESS_COPY_TOCLIPBOARD" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_NOTICE" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_WRN_ADDPLAYERTOGRP" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_VOMIT" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_VOMIT" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_KICK" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_KICK_REASON" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_KILL_PLAYERS" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_KILL_PLAYERS" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_SEND_MSG" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_SEND_MSG" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_BAN_PLAYER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_RET_PLAYER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_BAN_PLAYER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_RET_PLAYER" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_APPLY_HEALTH" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_APPLY_BLOOD" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_APPLY_SHOCK" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_APPLY_WATER" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_APPLY_ENERGY" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_KICK_MESSAGE_PLAYER" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_SPECTATE_REQ" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_RESTARTSERVER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_RESTARTSERVER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_LOCKSERVER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_LOCKSERVER" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_KICKALLPLAYERS" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_KICKALLPLAYERS" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_KICKINGPLAYERS" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TP_MENU_INFO" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_DEL_PRESET_TP" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_DEL_PRESET_TP" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_TP_PLAYER" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_TP_PLAYERS_NOTSELECT" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_INVALIDPOS" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_TP_NAME_UNIQUE" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_WEATHER_MNU" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_WEATHER_PRST" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_SELECT_PRST_WEATHER" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_WEATHERSETTING" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_DEL_WEATHER_PRST" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_INCRR_PRESET" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_NAME_INUSE" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_INVALID_WEATHERDATA" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_SAVING_WEATHER" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_WEATHER_SELECT_PRST" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_APPLY_WEATHERPREST" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_SELECT_PRST_WEATHER_DEL" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_TIME_PRST" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_REMOVE_DATE_PRST" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_MISSING_DATE" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_DUPE_TIME_PRST" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_SAVE_PRST_DATE" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_DATE_MISSING" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_WTH_APPLYING" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_SELECT_TIME_PRST" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_APPLY_TIME_PRST" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_UPDATED_TIME_PRST" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_SAVE_CHANGE" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_SAVE_CHANGE" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_WBHOOKS_CONFG" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_NOWEBHOOK" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_WBHOOK_NAMESHORT" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_NAMEINUSE_WEBHOOK" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_DEL_WEBHOOK" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_WBHOOK_DEL" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_WBHOOK_DEL" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_TITLE_WBHOOK_SELC" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_WBHOOK_SELC" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_XML_EDITORCHN" listed twice in "Global"
+22:38:07.188 String "VSTR_TOOLTIP_XML_SCAN" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_TITLE_NOMINAL" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_TITLE_LIFETIME" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_TITLE_RESTOCK" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_TITLE_MIN" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_TITLE_QUANTMIN" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_TITLE_QUANTMAX" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_TITLE_COST" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_NOMINAL" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_LIFETIME" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_RESTOCK" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_MIN" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_QUANTMIN" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_QUNATMAX" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_COST" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_ERR_XML_NOITEM" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_WAIT_INFO" listed twice in "Global"
+22:38:07.188 String "VSTR_NOTIFY_TOTALSCANNED" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_ERR_NOT_DEF" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_SUCCESS_RETRIVE" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_NOTIFY_ERR" listed twice in "Global"
+22:38:07.188 String "VSTR_XML_ERR_SELECTFIRST" listed twice in "Global"
+22:38:07.188 String "VSTR_YEAR" listed twice in "Global"
+22:38:07.188 String "VSTR_MONTH" listed twice in "Global"
+22:38:07.188 String "VSTR_DAY" listed twice in "Global"
+22:38:07.188 String "VSTR_HOUR" listed twice in "Global"
+22:38:07.188 String "VSTR_MINUTE" listed twice in "Global"
+22:38:07.188 String "VSTR_CANCEL" listed twice in "Global"
+22:38:07.188 String "VSTR_APPLY" listed twice in "Global"
+22:38:07.188 String "VSTR_BAN_PERMA" listed twice in "Global"
+22:38:07.188 String "VSTR_EDIT_DURATION" listed twice in "Global"
+22:38:07.188 String "VSTR_SEARCH" listed twice in "Global"
+22:38:07.188 String "VSTR_BAN_LIST_MANAGER_TITLE" listed twice in "Global"
+22:38:07.188 String "VSTR_REFRESH" listed twice in "Global"
+22:38:07.188 String "VSTR_BAN_LIST" listed twice in "Global"
+22:38:07.188 String "VSTR_DETALIS" listed twice in "Global"
+22:38:07.188 String "VSTR_LBL_NAME" listed twice in "Global"
+22:38:07.188 String "VSTR_LBL_STEAMID" listed twice in "Global"
+22:38:07.188 String "VSTR_LBL_GUID" listed twice in "Global"
+22:38:07.188 String "VSTR_LBL_REASON" listed twice in "Global"
+22:38:07.188 String "VSTR_LBL_EXPERIY_DATE" listed twice in "Global"
+22:38:07.188 String "VSTR_LBL_ISSUED_BY" listed twice in "Global"
+22:38:07.188 String "VSTR_LBL_REMOVE_SEL_PLAYERS" listed twice in "Global"
+22:38:07.188 String "VSTR_LBL_CMD_TITLE" listed twice in "Global"
+22:38:07.188 String "VSTR_LBL_CLEAR_LIST" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DELETE_ALL" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SELECTED_ITEMS" listed twice in "Global"
+22:38:07.189 String "VSTR_TITLE_ESP_TOOLS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ACTIONS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_CLEAR" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_TOGGLE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SHOW_CLASSNAME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DEL_RADIUS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_CLASS_NAME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_UPDATE_INTERVAL" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SHOW_DETAILED_ESP" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_FILTERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DEFAULTS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DISTANCE" listed twice in "Global"
+22:38:07.189 String "VSTR_ITEM_MANAGER_TITLE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ITEM_SETS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_RELOAD" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ITEMS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ITEMS_LIST" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ITEM_PREVIEW" listed twice in "Global"
+22:38:07.189 String "VSTR_ENABLE_PREVIEW" listed twice in "Global"
+22:38:07.189 String "VSTR_ENABLE_NO_CLIP" listed twice in "Global"
+22:38:07.189 String "VSTR_SPAWN_OPTIONS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_QUANTITY" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_CONDITION" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SPAWN_IN" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_OTHER" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_PRISTINE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_WORN" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DAMAGED" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_BADLY_DAMAGED" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_RUIEND" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_IN_INENTORY" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ON_GROUND" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_AT_CROSSHAIRS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ON_SELECTED_PLAYERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SAVED_ITEM_SETS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_PRESET_ACTIONS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SPAWN_PRESET" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_CREATE_PRESET" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DELETE_PRESET" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SAVE_CHANGES" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_NEW_PRESET_ATTS_ITEMMANAGER" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_PRESET_NAME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SAVE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SELECT" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_TYPE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_YAW" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_PITCH" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ROLL" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_BUILDING_SET_ATTS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_BUILDING_SET_NAME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_BLD_SET_ACTIVE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_EXPORT_RAW" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_OK" listed twice in "Global"
+22:38:07.189 String "VSTR_BUILDING_ATTS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_BLD_SET_ACTIVE_S" listed twice in "Global"
+22:38:07.189 String "VSTR_BUILDING_MANAGER_TITLE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_NEW_OBJ_ATT" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SEARCH_KEYWORD" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_HELP" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_OPTIONS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_FREE_CAM" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_TOP_DOWN_VIEW" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_FOV" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SNAP_ON_MOVE" listed twice in "Global"
+22:38:07.189 String "VSTR_ENABLE_OBJ_SNAP" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_BUILDING_SETS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_CREATE_NEW_BUILD_SET" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SAVE_EDITS" listed twice in "Global"
+22:38:07.189 String "VSTR_PERMISSIONS_MANAGER_TITLE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_AVA_PERMS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_USER_GROUPS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ADD_MEMEBER" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_UPDATE_PERMISSIONS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_CREATE_GROUP" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DELETE_GROUP" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_UPDATE_GROUP_ATTS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_GROUP_NAME_FORCE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_GROUP_NAME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_GROUP_TOTAL_MEMBERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_GROUP_PERMS_LVL" listed twice in "Global"
+22:38:07.189 String "VSTR_PLAYER_MANAGER_TITLE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_PLAYERS_LIST" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_PLAYERS_DETAILS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_MODIFIERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_HEAL_PLAYERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_KILL_PLAYERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_TP_TO_ME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SEND_MESSAGE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_TP_ME_TO" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_KICK_PLAYERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_BAN_PLAYERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SPECTATE_PLAYER" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_MAKE_VOMIT" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_GODMODE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_UNLIM_AMMO" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SET_INVIS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_FREEZE_PLAYER" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_USER_GROUP" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_COPY_INFO" listed twice in "Global"
+22:38:07.189 String "VSTR_SERVER_MANAGER_TITLE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ACTIVVITY_MAP" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SCRIPT_LOADER" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_REFRESH_LIST" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_WRITE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_VIEW" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_LOAD" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_RELEASE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ADMIN_LOGIN" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_PASSWORD" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SERVER_MONITOR" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SERVER_FPS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ONLINE_PLAYERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SERVER_UPTIME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_MEM_USED" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_NETWORK_TRAFFIC" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_NETWORK_TRAFFIC2" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ACTIVE_AI" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_REFRESH_ACTIVITY" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_AUTO_UPDATE_ACTIVITY" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_RESTART_SERVER" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_LOCKSERVER" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_KILL_ALL_PLAYERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_RETURN_PLAYERS" listed twice in "Global"
+22:38:07.189 String "VSTR_TELEPORT_MANAGER_TITLE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SAVED_POSITIONS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ADD_NEW_POS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_EDIT_SEL_POS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DEL_SEL_POS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_TP_TO_SEL_PLAYERS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_TP_TO_POS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_NEW_TP_POS_ATTS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_POS" listed twice in "Global"
+22:38:07.189 String "VSTR_WEATHER_MANAGER" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_PRESETS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_INFORMATION" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_TIME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DATE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_RAIN" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_OVERCAST" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_FOG" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_WIND_FORCE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_WORLD_TIME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_HOUR" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_MINUTE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DAY" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_MONTH" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_YEAR" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_APPLY_PRESET" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_USE_CURRENT_TIME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DELETE_W_PRESET" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_ENTER_NAME" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_WEATHER_CONFG" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_RATE_OF_CHANGE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_DURATION" listed twice in "Global"
+22:38:07.189 String "VSTR_WEB_HOOKS_MANAGER_TITLE" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_WEBHOOKS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_WEBHOOKS_ATTS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SEND_DEATH_LOGS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SIMPLIFIED_LOGS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SEND_ADMIN_LOGS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SEND_HIT_LOGS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_SEND_PLAYER_LEAVE_JOIN_LOGS" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_URL" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_WEBHOOKS_TIP" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_CREATE_NEW_PRESET" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_PLEASE_WAIT" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_APPLY_CHANGES" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_LOAD_SELECTED" listed twice in "Global"
+22:38:07.189 String "VSTR_LBL_GET_ITEM_STATS" listed twice in "Global"
+22:38:07.189 String "VSTR_XML_EDITOR_TITLE" listed twice in "Global"
+22:38:07.189 String "VSTR_XML_MENU_TOOLTIP" listed twice in "Global"
+22:38:07.192 String "vpp_focus_on_game" listed twice in "Global"
+22:38:07.192 String "vpp_settings_collapseesp" listed twice in "Global"
+22:38:07.192 String "vpp_settings_toggleplayerdetail" listed twice in "Global"
+22:38:07.192 String "vpp_settings_openadmintools" listed twice in "Global"
+22:38:07.192 String "vpp_settings_toggleadmintools" listed twice in "Global"
+22:38:07.192 String "vpp_settings_teleporttocrosshair" listed twice in "Global"
+22:38:07.192 String "vpp_settings_deleteobjectatcrosshair" listed twice in "Global"
+22:38:07.192 String "vpp_settings_togglegodmode" listed twice in "Global"
+22:38:07.192 String "vpp_settings_copyposition" listed twice in "Global"
+22:38:07.192 String "vpp_settings_repairvehicle" listed twice in "Global"
+22:38:07.192 String "vpp_settings_togglefreecam" listed twice in "Global"
+22:38:07.192 String "vpp_settings_exitspectate" listed twice in "Global"
+22:38:07.192 String "vpp_settings_selectobject" listed twice in "Global"
+22:38:07.192 String "vpp_settings_deselectobject" listed twice in "Global"
+22:38:07.192 String "vpp_settings_incrementaxis" listed twice in "Global"
+22:38:07.192 String "vpp_settings_decrementaxis" listed twice in "Global"
+22:38:07.192 String "vpp_settings_healtarget" listed twice in "Global"
+22:38:07.192 String "vpp_settings_surprise" listed twice in "Global"
+22:38:07.192 String "vpp_settings_cmdconsole" listed twice in "Global"
+22:38:07.192 String "vpp_settings_skeletons" listed twice in "Global"
+22:38:07.192 String "vpp_settings_invisibility" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camforward" listed twice in "Global"
+22:38:07.192 String "vpp_settings_cambackward" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camright" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camleft" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camup" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camdown" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camturbo" listed twice in "Global"
+22:38:07.192 String "vpp_settings_rotateleft" listed twice in "Global"
+22:38:07.192 String "vpp_settings_rotateright" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camshiftleft" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camshiftright" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camshiftup" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camshiftdown" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camspeedadd" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camspeeddeduct" listed twice in "Global"
+22:38:07.192 String "vpp_settings_camfov" listed twice in "Global"
+22:38:07.192 String "vpp_settings_toggleesp" listed twice in "Global"
+22:38:07.192 String "vpp_menu_vpp" listed twice in "Global"
+22:38:07.192 String "vpp_bind_unfocus" listed twice in "Global"
+22:38:08.278 Updating base class All->AllVehicles, by DZ\data\config.bin/CfgVehicles/Man/
+22:38:08.327 Updating base class Name->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/Hill/
+22:38:08.327 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/ViewPoint/
+22:38:08.327 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/RockArea/
+22:38:08.327 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/BorderCrossing/
+22:38:08.327 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationBroadleaf/
+22:38:08.327 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationFir/
+22:38:08.327 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationPalm/
+22:38:08.327 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationVineyard/
+22:38:08.465 Updating base class ->Rifle_Base, by DZ\weapons\firearms\m4\config.bin/cfgWeapons/M4A1_Base/
+22:38:08.465 Updating base class ->M4A1_Base, by DZ\weapons\firearms\m4\config.bin/cfgWeapons/M4A1/
+22:38:08.470 Updating base class Weather->, by DZ\worlds\chernarusplus\world\config.bin/CfgWorlds/CAWorld/Weather/
+22:38:08.470 Updating base class Overcast->, by DZ\worlds\chernarusplus\world\config.bin/CfgWorlds/CAWorld/Weather/Overcast/
+22:38:08.472 Updating base class MapDefaults->, by VPPAdminTools\assets\config.bin/RscMapControl/
+22:38:08.888 Updating base class ->GUIInventoryAttachmentsProps, by DayZExpansion\Vehicles\Ground\CivillianSedan\config.bin/CfgVehicles/CivilianSedan/GUIInventoryAttachmentsProps/
+22:38:08.888 Updating base class ->Body, by DayZExpansion\Vehicles\Ground\CivillianSedan\config.bin/CfgVehicles/CivilianSedan/GUIInventoryAttachmentsProps/Body/
+22:38:08.888 Updating base class DamageSystem->, by DayZExpansion\Vehicles\Ground\CivillianSedan\config.bin/CfgVehicles/CivSedanDoors_Driver/DamageSystem/
+22:38:08.888 Updating base class GlobalHealth->, by DayZExpansion\Vehicles\Ground\CivillianSedan\config.bin/CfgVehicles/CivSedanDoors_Driver/DamageSystem/GlobalHealth/
+22:38:08.888 Updating base class DamageZones->, by DayZExpansion\Vehicles\Ground\CivillianSedan\config.bin/CfgVehicles/CivSedanDoors_Driver/DamageSystem/DamageZones/
+22:38:08.888 Updating base class Window->, by DayZExpansion\Vehicles\Ground\CivillianSedan\config.bin/CfgVehicles/CivSedanDoors_Driver/DamageSystem/DamageZones/Window/
+22:38:08.888 Updating base class Health->, by DayZExpansion\Vehicles\Ground\CivillianSedan\config.bin/CfgVehicles/CivSedanDoors_Driver/DamageSystem/DamageZones/Window/Health/
+22:38:08.888 Updating base class Doors->, by DayZExpansion\Vehicles\Ground\CivillianSedan\config.bin/CfgVehicles/CivSedanDoors_Driver/DamageSystem/DamageZones/Doors/
+22:38:08.888 Updating base class Health->, by DayZExpansion\Vehicles\Ground\CivillianSedan\config.bin/CfgVehicles/CivSedanDoors_Driver/DamageSystem/DamageZones/Doors/Health/
+22:38:08.895 Updating base class ->GUIInventoryAttachmentsProps, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02/GUIInventoryAttachmentsProps/
+22:38:08.895 Updating base class ->Body, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02/GUIInventoryAttachmentsProps/Body/
+22:38:08.895 Updating base class DamageSystem->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_1/DamageSystem/
+22:38:08.895 Updating base class GlobalHealth->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_1/DamageSystem/GlobalHealth/
+22:38:08.895 Updating base class DamageZones->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_1/DamageSystem/DamageZones/
+22:38:08.895 Updating base class Window->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_1/DamageSystem/DamageZones/Window/
+22:38:08.895 Updating base class Health->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_1/DamageSystem/DamageZones/Window/Health/
+22:38:08.895 Updating base class Doors->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_1/DamageSystem/DamageZones/Doors/
+22:38:08.895 Updating base class Health->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_1/DamageSystem/DamageZones/Doors/Health/
+22:38:08.895 Updating base class DamageSystem->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_2/DamageSystem/
+22:38:08.895 Updating base class GlobalHealth->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_2/DamageSystem/GlobalHealth/
+22:38:08.895 Updating base class DamageZones->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_2/DamageSystem/DamageZones/
+22:38:08.895 Updating base class Window->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_2/DamageSystem/DamageZones/Window/
+22:38:08.895 Updating base class Health->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_2/DamageSystem/DamageZones/Window/Health/
+22:38:08.895 Updating base class Doors->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_2/DamageSystem/DamageZones/Doors/
+22:38:08.895 Updating base class Health->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Door_1_2/DamageSystem/DamageZones/Doors/Health/
+22:38:08.895 Updating base class Hatchback_02_Door_1_1->CarDoor, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Hood/
+22:38:08.895 Updating base class Hatchback_02_Door_1_1->CarDoor, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Trunk/
+22:38:08.895 Updating base class DamageSystem->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Trunk/DamageSystem/
+22:38:08.895 Updating base class GlobalHealth->, by DayZExpansion\Vehicles\Ground\Hatchback_02\config.bin/CfgVehicles/Hatchback_02_Trunk/DamageSystem/GlobalHealth/
+22:38:08.908 Updating base class ->GUIInventoryAttachmentsProps, by DayZExpansion\Vehicles\Ground\Offroad_02\config.bin/CfgVehicles/Offroad_02/GUIInventoryAttachmentsProps/
+22:38:08.908 Updating base class ->Body, by DayZExpansion\Vehicles\Ground\Offroad_02\config.bin/CfgVehicles/Offroad_02/GUIInventoryAttachmentsProps/Body/
+22:38:08.910 Updating base class ->GUIInventoryAttachmentsProps, by DayZExpansion\Vehicles\Ground\OffroadHatchback\config.bin/CfgVehicles/OffroadHatchback/GUIInventoryAttachmentsProps/
+22:38:08.911 Updating base class ->Body, by DayZExpansion\Vehicles\Ground\OffroadHatchback\config.bin/CfgVehicles/OffroadHatchback/GUIInventoryAttachmentsProps/Body/
+22:38:08.911 Updating base class DamageSystem->, by DayZExpansion\Vehicles\Ground\OffroadHatchback\config.bin/CfgVehicles/HatchbackDoors_Driver/DamageSystem/
+22:38:08.911 Updating base class GlobalHealth->, by DayZExpansion\Vehicles\Ground\OffroadHatchback\config.bin/CfgVehicles/HatchbackDoors_Driver/DamageSystem/GlobalHealth/
+22:38:08.911 Updating base class DamageZones->, by DayZExpansion\Vehicles\Ground\OffroadHatchback\config.bin/CfgVehicles/HatchbackDoors_Driver/DamageSystem/DamageZones/
+22:38:08.911 Updating base class Window->, by DayZExpansion\Vehicles\Ground\OffroadHatchback\config.bin/CfgVehicles/HatchbackDoors_Driver/DamageSystem/DamageZones/Window/
+22:38:08.911 Updating base class Health->, by DayZExpansion\Vehicles\Ground\OffroadHatchback\config.bin/CfgVehicles/HatchbackDoors_Driver/DamageSystem/DamageZones/Window/Health/
+22:38:08.911 Updating base class Doors->, by DayZExpansion\Vehicles\Ground\OffroadHatchback\config.bin/CfgVehicles/HatchbackDoors_Driver/DamageSystem/DamageZones/Doors/
+22:38:08.911 Updating base class Health->, by DayZExpansion\Vehicles\Ground\OffroadHatchback\config.bin/CfgVehicles/HatchbackDoors_Driver/DamageSystem/DamageZones/Doors/Health/
+22:38:08.911 Updating base class DamageSystem->, by DayZExpansion\Vehicles\Ground\OffroadHatchback\config.bin/CfgVehicles/HatchbackTrunk/DamageSystem/
+22:38:08.919 Updating base class ->GUIInventoryAttachmentsProps, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02/GUIInventoryAttachmentsProps/
+22:38:08.919 Updating base class ->Body, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02/GUIInventoryAttachmentsProps/Body/
+22:38:08.919 Updating base class DamageSystem->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_1/DamageSystem/
+22:38:08.919 Updating base class GlobalHealth->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_1/DamageSystem/GlobalHealth/
+22:38:08.919 Updating base class DamageZones->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_1/DamageSystem/DamageZones/
+22:38:08.919 Updating base class Window->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_1/DamageSystem/DamageZones/Window/
+22:38:08.919 Updating base class Health->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_1/DamageSystem/DamageZones/Window/Health/
+22:38:08.919 Updating base class Doors->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_1/DamageSystem/DamageZones/Doors/
+22:38:08.919 Updating base class Health->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_1/DamageSystem/DamageZones/Doors/Health/
+22:38:08.920 Updating base class DamageSystem->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_2/DamageSystem/
+22:38:08.920 Updating base class GlobalHealth->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_2/DamageSystem/GlobalHealth/
+22:38:08.920 Updating base class DamageZones->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_2/DamageSystem/DamageZones/
+22:38:08.920 Updating base class Window->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_2/DamageSystem/DamageZones/Window/
+22:38:08.920 Updating base class Health->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_2/DamageSystem/DamageZones/Window/Health/
+22:38:08.920 Updating base class Doors->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_2/DamageSystem/DamageZones/Doors/
+22:38:08.920 Updating base class Health->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_1_2/DamageSystem/DamageZones/Doors/Health/
+22:38:08.920 Updating base class DamageSystem->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_2_2/DamageSystem/
+22:38:08.920 Updating base class GlobalHealth->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_2_2/DamageSystem/GlobalHealth/
+22:38:08.920 Updating base class DamageZones->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_2_2/DamageSystem/DamageZones/
+22:38:08.920 Updating base class Window->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_2_2/DamageSystem/DamageZones/Window/
+22:38:08.920 Updating base class Health->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_2_2/DamageSystem/DamageZones/Window/Health/
+22:38:08.920 Updating base class Doors->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_2_2/DamageSystem/DamageZones/Doors/
+22:38:08.920 Updating base class Health->, by DayZExpansion\Vehicles\Ground\Sedan_02\config.bin/CfgVehicles/Sedan_02_Door_2_2/DamageSystem/DamageZones/Doors/Health/
+22:38:08.933 Updating base class ->GUIInventoryAttachmentsProps, by DayZExpansion\Vehicles\Ground\Truck_01\config.bin/CfgVehicles/Truck_01_Covered/GUIInventoryAttachmentsProps/
+22:38:08.933 Updating base class ->Body, by DayZExpansion\Vehicles\Ground\Truck_01\config.bin/CfgVehicles/Truck_01_Covered/GUIInventoryAttachmentsProps/Body/
+22:38:09.637 Updating base class Expansion_BaseVehicles_SoundSet->, by DayZExpansion\Sounds\Vehicles\Water\LHD\config.bin/CfgSoundSets/Expansion_Horn_SoundSet/
+22:38:09.661 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Merlin\config.bin/CfgVehicles/ExpansionSpraycanDahoman/
+22:38:09.661 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Merlin\config.bin/CfgVehicles/ExpansionSpraycanIon/
+22:38:09.661 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Merlin\config.bin/CfgVehicles/ExpansionSpraycanPresident/
+22:38:09.661 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Merlin\config.bin/CfgVehicles/ExpansionSpraycanVrana/
+22:38:09.661 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Merlin\config.bin/CfgVehicles/ExpansionSpraycanWave/
+22:38:09.665 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanBlueline/
+22:38:09.666 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanDigital/
+22:38:09.668 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanElliptical/
+22:38:09.669 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanFurious/
+22:38:09.669 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanGrayWatcher/
+22:38:09.670 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanJeans/
+22:38:09.671 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanResistance/
+22:38:09.672 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanShadow/
+22:38:09.673 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanSheriff/
+22:38:09.674 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanSpeedy/
+22:38:09.675 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanSunset/
+22:38:09.678 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Mh6\config.bin/CfgVehicles/ExpansionSpraycanWasp/
+22:38:09.684 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Uh1h\config.bin/CfgVehicles/ExpansionSpraycanCivilian/
+22:38:09.685 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Uh1h\config.bin/CfgVehicles/ExpansionSpraycanMedical/
+22:38:09.686 Updating base class ->ExpansionSpraycanBase, by DayZExpansion\Vehicles\Air\Uh1h\config.bin/CfgVehicles/ExpansionSpraycanUber/
+22:38:10.35  ENGINE       : Enfusion engine version 0.1
+22:38:10.40  ENGINE       : FileSystem: Adding relative directory 'F:\SteamLibrary\steamapps\common\DayZServer' to RV filesystem under name CurrentDir
+22:38:10.40  ENGINE       : Loading config '$CurrentDir:DayZSetting.xml'
+22:38:10.71  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\sounds_vehicles_ground_offroadhatchback.pbo' to RV filesystem
+22:38:10.72  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\core_objects_temporaryownedcontainer.pbo' to RV filesystem
+22:38:10.72  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\sounds_vehicles_ground_truck_01_base.pbo' to RV filesystem
+22:38:10.73  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\sounds_vehicles_ground_civiliansedan.pbo' to RV filesystem
+22:38:10.73  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\sounds_vehicles_ground_hatchback_02.pbo' to RV filesystem
+22:38:10.73  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_ground_offroadhatchback.pbo' to RV filesystem
+22:38:10.74  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\sounds_vehicles_ground_sedan_02.pbo' to RV filesystem
+22:38:10.74  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\objects_structures_grass_sample.pbo' to RV filesystem
+22:38:10.74  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\objects_structures_hanged_body.pbo' to RV filesystem
+22:38:10.74  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_ground_civilliansedan.pbo' to RV filesystem
+22:38:10.75  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\notificationscheduler_scripts.pbo' to RV filesystem
+22:38:10.75  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\sounds_vehicles_air_hatchbird.pbo' to RV filesystem
+22:38:10.75  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_ground_vodnik.pbo' to RV filesystem
+22:38:10.76  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_water_utility.pbo' to RV filesystem
+22:38:10.76  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_ground_hatchback_02.pbo' to RV filesystem
+22:38:10.77  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_ground_tt650.pbo' to RV filesystem
+22:38:10.77  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_water_zodiac.pbo' to RV filesystem
+22:38:10.78  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\core_objects_navmeshcarvers.pbo' to RV filesystem
+22:38:10.78  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_ground_n250.pbo' to RV filesystem
+22:38:10.78  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\structures_residential_misc.pbo' to RV filesystem
+22:38:10.79  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\structures_industrial_power.pbo' to RV filesystem
+22:38:10.79  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_air_bell412.pbo' to RV filesystem
+22:38:10.79  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_ground_offroad_02.pbo' to RV filesystem
+22:38:10.80  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\objects_basebuilding_gates.pbo' to RV filesystem
+22:38:10.80  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\objects_weapons_explosives.pbo' to RV filesystem
+22:38:10.81  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_air_merlin.pbo' to RV filesystem
+22:38:10.81  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\sounds_vehicles_ground_bus.pbo' to RV filesystem
+22:38:10.81  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\objects_basebuilding_tents.pbo' to RV filesystem
+22:38:10.82  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\structures_industrial_misc.pbo' to RV filesystem
+22:38:10.82  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\objects_basebuilding_misc.pbo' to RV filesystem
+22:38:10.82  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_water_lhd.pbo' to RV filesystem
+22:38:10.83  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_ground_landrover.pbo' to RV filesystem
+22:38:10.83  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\core_objects_circuitboard.pbo' to RV filesystem
+22:38:10.84  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_ground_truck_01.pbo' to RV filesystem
+22:38:10.84  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_air_gyro.pbo' to RV filesystem
+22:38:10.85  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_ground_sedan_02.pbo' to RV filesystem
+22:38:10.85  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_air_uh1h.pbo' to RV filesystem
+22:38:10.85  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\objects_structures_debug.pbo' to RV filesystem
+22:38:10.86  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_objects_antiair.pbo' to RV filesystem
+22:38:10.86  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_ground_oldbike.pbo' to RV filesystem
+22:38:10.87  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_air_an2.pbo' to RV filesystem
+22:38:10.87  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\core_objects_currencies.pbo' to RV filesystem
+22:38:10.88  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_ground_tractor.pbo' to RV filesystem
+22:38:10.88  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_vehicles_air_mh6.pbo' to RV filesystem
+22:38:10.89  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\sounds_vehicles_common.pbo' to RV filesystem
+22:38:10.89  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\objects_gear_spraycans.pbo' to RV filesystem
+22:38:10.90  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_ground_vodnik.pbo' to RV filesystem
+22:38:10.90  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_water_boat_01.pbo' to RV filesystem
+22:38:10.90  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_water_utility.pbo' to RV filesystem
+22:38:10.91  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\core_objects_briefcase.pbo' to RV filesystem
+22:38:10.91  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_water_carrier.pbo' to RV filesystem
+22:38:10.91  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_air_hatchbird.pbo' to RV filesystem
+22:38:10.92  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_objects_gear.pbo' to RV filesystem
+22:38:10.93  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\languagecore_vehicles.pbo' to RV filesystem
+22:38:10.93  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_water_zodiac.pbo' to RV filesystem
+22:38:10.94  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\languagecore_licensed.pbo' to RV filesystem
+22:38:10.94  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_ground_tt650.pbo' to RV filesystem
+22:38:10.95  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\sounds_items_spraycan.pbo' to RV filesystem
+22:38:10.95  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_ground_250n.pbo' to RV filesystem
+22:38:10.96  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\vanillafixes_animals.pbo' to RV filesystem
+22:38:10.96  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\vanillafixes_scripts.pbo' to RV filesystem
+22:38:10.96  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\0_modstorage_preload.pbo' to RV filesystem
+22:38:10.96  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_air_merlin.pbo' to RV filesystem
+22:38:10.97  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\languagecore_garage.pbo' to RV filesystem
+22:38:10.97  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapon_underslung.pbo' to RV filesystem
+22:38:10.98  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\vanillafixes_sounds.pbo' to RV filesystem
+22:38:10.98  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_ground_uaz.pbo' to RV filesystem
+22:38:10.98  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_proxy_parts.pbo' to RV filesystem
+22:38:10.99  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_ground_bus.pbo' to RV filesystem
+22:38:10.99  ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\0_vehicles_preload.pbo' to RV filesystem
+22:38:10.100 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\modstorage_scripts.pbo' to RV filesystem
+22:38:10.100 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_air_c130j.pbo' to RV filesystem
+22:38:10.100 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\core_objects_bases.pbo' to RV filesystem
+22:38:10.100 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\sounds_explosions.pbo' to RV filesystem
+22:38:10.101 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_underground_bliss.pbo' to RV filesystem
+22:38:10.101 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\languagecore_core.pbo' to RV filesystem
+22:38:10.101 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_air_uh1h.pbo' to RV filesystem
+22:38:10.101 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_residential_bliss.pbo' to RV filesystem
+22:38:10.102 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapon_magazines.pbo' to RV filesystem
+22:38:10.102 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_air_gyro.pbo' to RV filesystem
+22:38:10.103 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\worlds_chernarusplus_nav.pbo' to RV filesystem
+22:38:10.104 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\0_garage_preload.pbo' to RV filesystem
+22:38:10.104 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\vanillafixes_gui.pbo' to RV filesystem
+22:38:10.104 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapon_supports.pbo' to RV filesystem
+22:38:10.105 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_air_mh6.pbo' to RV filesystem
+22:38:10.105 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_industrial_bliss.pbo' to RV filesystem
+22:38:10.106 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_scripts.pbo' to RV filesystem
+22:38:10.106 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_air_an2.pbo' to RV filesystem
+22:38:10.107 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\worlds_chernarusplus.pbo' to RV filesystem
+22:38:10.107 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapon_optics.pbo' to RV filesystem
+22:38:10.108 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapon_muzzles.pbo' to RV filesystem
+22:38:10.108 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\objects_airdrop.pbo' to RV filesystem
+22:38:10.109 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\garage_objects.pbo' to RV filesystem
+22:38:10.109 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\0_core_preload.pbo' to RV filesystem
+22:38:10.109 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\skins_vehicles.pbo' to RV filesystem
+22:38:10.109 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapon_lights.pbo' to RV filesystem
+22:38:10.110 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_military_bliss.pbo' to RV filesystem
+22:38:10.110 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\garage_scripts.pbo' to RV filesystem
+22:38:10.111 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_specific_bliss.pbo' to RV filesystem
+22:38:10.111 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\worlds_chernarusplus_data.pbo' to RV filesystem
+22:38:10.112 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapon_attachments_textures.pbo' to RV filesystem
+22:38:10.112 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Licensed\addons\vehicles_data.pbo' to RV filesystem
+22:38:10.112 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_wrecks_bliss.pbo' to RV filesystem
+22:38:10.113 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\core_scripts.pbo' to RV filesystem
+22:38:10.113 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\worlds_chernarusplus_ce.pbo' to RV filesystem
+22:38:10.114 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\vehicles_gui.pbo' to RV filesystem
+22:38:10.114 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_roads_bliss.pbo' to RV filesystem
+22:38:10.114 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_ruins_bliss.pbo' to RV filesystem
+22:38:10.114 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_residential.pbo' to RV filesystem
+22:38:10.115 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_signs_bliss.pbo' to RV filesystem
+22:38:10.115 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_walls_bliss.pbo' to RV filesystem
+22:38:10.115 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\definetest.pbo' to RV filesystem
+22:38:10.116 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_industrial.pbo' to RV filesystem
+22:38:10.116 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\sakhal\addons\worlds_sakhal_nav.pbo' to RV filesystem
+22:38:10.117 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_data_bliss.pbo' to RV filesystem
+22:38:10.117 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Vehicles\addons\garage_gui.pbo' to RV filesystem
+22:38:10.117 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_rail_bliss.pbo' to RV filesystem
+22:38:10.118 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_furniture.pbo' to RV filesystem
+22:38:10.118 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\core_stub.pbo' to RV filesystem
+22:38:10.118 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_backpacks.pbo' to RV filesystem
+22:38:10.119 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\particles.pbo' to RV filesystem
+22:38:10.119 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\sounds_ui.pbo' to RV filesystem
+22:38:10.119 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\worlds_enoch_nav.pbo' to RV filesystem
+22:38:10.120 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_military.pbo' to RV filesystem
+22:38:10.120 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_headgear.pbo' to RV filesystem
+22:38:10.121 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_projectiles.pbo' to RV filesystem
+22:38:10.121 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\sakhal\addons\worlds_sakhal.ebo' to RV filesystem
+22:38:10.121 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\dta_game.pbo' to RV filesystem
+22:38:10.122 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_specific.pbo' to RV filesystem
+22:38:10.122 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\core_gui.pbo' to RV filesystem
+22:38:10.122 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DayZ-Expansion-Core\addons\dta_core.pbo' to RV filesystem
+22:38:10.123 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\anims_anm_infected.pbo' to RV filesystem
+22:38:10.123 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DabsFramework\addons\Scripts.pbo' to RV filesystem
+22:38:10.124 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\sakhal\addons\worlds_sakhal_data.pbo' to RV filesystem
+22:38:10.124 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_glasses.pbo' to RV filesystem
+22:38:10.124 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\sounds_environment.pbo' to RV filesystem
+22:38:10.125 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_ammunition.pbo' to RV filesystem
+22:38:10.125 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_animations.pbo' to RV filesystem
+22:38:10.125 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\worlds_enoch.pbo' to RV filesystem
+22:38:10.125 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_explosives.pbo' to RV filesystem
+22:38:10.126 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_zombies.pbo' to RV filesystem
+22:38:10.126 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_proxies.pbo' to RV filesystem
+22:38:10.126 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_nonlethal.pbo' to RV filesystem
+22:38:10.127 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\worlds_enoch_data.pbo' to RV filesystem
+22:38:10.127 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_wrecks.pbo' to RV filesystem
+22:38:10.128 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@VPPAdminTools\addons\assets.pbo' to RV filesystem
+22:38:10.128 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_bodies.pbo' to RV filesystem
+22:38:10.128 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_gloves.pbo' to RV filesystem
+22:38:10.129 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\sounds_characters.pbo' to RV filesystem
+22:38:10.129 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\sakhal\addons\structures_sakhal.pbo' to RV filesystem
+22:38:10.129 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_launchers.pbo' to RV filesystem
+22:38:10.130 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_signs.pbo' to RV filesystem
+22:38:10.130 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_consumables.pbo' to RV filesystem
+22:38:10.131 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_ruins.pbo' to RV filesystem
+22:38:10.131 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_cultivation.pbo' to RV filesystem
+22:38:10.131 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_heads.pbo' to RV filesystem
+22:38:10.132 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_roads.pbo' to RV filesystem
+22:38:10.132 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_firearms.pbo' to RV filesystem
+22:38:10.133 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_shotguns.pbo' to RV filesystem
+22:38:10.133 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_masks.pbo' to RV filesystem
+22:38:10.133 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_pants.pbo' to RV filesystem
+22:38:10.134 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_belts.pbo' to RV filesystem
+22:38:10.134 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\sakhal\addons\worlds_sakhal_ce.pbo' to RV filesystem
+22:38:10.134 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\anims_workspaces.pbo' to RV filesystem
+22:38:10.135 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_vests.pbo' to RV filesystem
+22:38:10.135 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\anims_anm_player.pbo' to RV filesystem
+22:38:10.136 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_walls.pbo' to RV filesystem
+22:38:10.136 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\vehicles_wheeled.pbo' to RV filesystem
+22:38:10.137 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_shoes.pbo' to RV filesystem
+22:38:10.137 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_containers.pbo' to RV filesystem
+22:38:10.137 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_pistols.pbo' to RV filesystem
+22:38:10.138 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\worlds_enoch_ce.pbo' to RV filesystem
+22:38:10.138 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_tops.pbo' to RV filesystem
+22:38:10.138 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_navigation.pbo' to RV filesystem
+22:38:10.139 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\sakhal\addons\surfaces_sakhal.pbo' to RV filesystem
+22:38:10.139 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\sounds_vehicles.pbo' to RV filesystem
+22:38:10.139 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\characters_data.pbo' to RV filesystem
+22:38:10.140 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_data.pbo' to RV filesystem
+22:38:10.140 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_archery.pbo' to RV filesystem
+22:38:10.141 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_proxies.pbo' to RV filesystem
+22:38:10.141 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\structures_rail.pbo' to RV filesystem
+22:38:10.142 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\vehicles_parts.pbo' to RV filesystem
+22:38:10.142 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\sounds_weapons.pbo' to RV filesystem
+22:38:10.142 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\vehicles_water.pbo' to RV filesystem
+22:38:10.143 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@DabsFramework\addons\GUI.pbo' to RV filesystem
+22:38:10.143 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\surfaces_bliss.pbo' to RV filesystem
+22:38:10.144 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_melee.pbo' to RV filesystem
+22:38:10.144 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\sakhal\addons\plants_sakhal.pbo' to RV filesystem
+22:38:10.144 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@VPPAdminTools RU Translate\addons\VPPATRUTranslate.pbo' to RV filesystem
+22:38:10.145 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\vehicles_data.pbo' to RV filesystem
+22:38:10.145 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\animals_bliss.pbo' to RV filesystem
+22:38:10.146 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_crafting.pbo' to RV filesystem
+22:38:10.146 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_cooking.pbo' to RV filesystem
+22:38:10.146 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_data.pbo' to RV filesystem
+22:38:10.147 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_camping.pbo' to RV filesystem
+22:38:10.147 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\sounds_bliss.pbo' to RV filesystem
+22:38:10.147 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\sakhal\addons\water_sakhal.pbo' to RV filesystem
+22:38:10.147 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\weapons_misc.pbo' to RV filesystem
+22:38:10.147 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_medical.pbo' to RV filesystem
+22:38:10.148 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\plants_bliss.pbo' to RV filesystem
+22:38:10.148 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\sakhal\addons\rocks_sakhal.pbo' to RV filesystem
+22:38:10.149 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\sounds_music.pbo' to RV filesystem
+22:38:10.150 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_drinks.pbo' to RV filesystem
+22:38:10.150 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@VPPAdminTools\addons\VPPStaticItems.pbo' to RV filesystem
+22:38:10.151 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_optics.pbo' to RV filesystem
+22:38:10.151 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\rocks_bliss.pbo' to RV filesystem
+22:38:10.151 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\water_bliss.pbo' to RV filesystem
+22:38:10.152 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\modules_dayz.pbo' to RV filesystem
+22:38:10.152 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\sakhal\addons\data_sakhal.pbo' to RV filesystem
+22:38:10.152 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@CF\addons\legacy.pbo' to RV filesystem
+22:38:10.152 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_traps.pbo' to RV filesystem
+22:38:10.153 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@CF\addons\scripts.pbo' to RV filesystem
+22:38:10.153 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_tools.pbo' to RV filesystem
+22:38:10.154 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_books.pbo' to RV filesystem
+22:38:10.154 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\data_bliss.pbo' to RV filesystem
+22:38:10.154 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@VPPAdminTools\addons\VPPAdminTools.pbo' to RV filesystem
+22:38:10.155 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_radio.pbo' to RV filesystem
+22:38:10.155 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\sounds_hpp.pbo' to RV filesystem
+22:38:10.155 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@VorexHeliTaxi\addons\VorexHeliTaxi.pbo' to RV filesystem
+22:38:10.156 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\gear_food.pbo' to RV filesystem
+22:38:10.156 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\dta\languagecore.pbo' to RV filesystem
+22:38:10.157 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\sounds_ai.pbo' to RV filesystem
+22:38:10.157 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\anims_cfg.pbo' to RV filesystem
+22:38:10.158 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\ai_bliss.pbo' to RV filesystem
+22:38:10.158 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\surfaces.pbo' to RV filesystem
+22:38:10.158 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\animals.pbo' to RV filesystem
+22:38:10.159 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\@CF\addons\gui.pbo' to RV filesystem
+22:38:10.159 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\plants.pbo' to RV filesystem
+22:38:10.159 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\server_data.pbo' to RV filesystem
+22:38:10.159 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\dta\graphics.pbo' to RV filesystem
+22:38:10.160 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\water.pbo' to RV filesystem
+22:38:10.160 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\rocks.pbo' to RV filesystem
+22:38:10.161 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\dz.pbo' to RV filesystem
+22:38:10.161 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\dta\scripts.pbo' to RV filesystem
+22:38:10.161 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\dta\system.pbo' to RV filesystem
+22:38:10.162 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\ai.pbo' to RV filesystem
+22:38:10.162 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\addons\ui.pbo' to RV filesystem
+22:38:10.163 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\dta\core.pbo' to RV filesystem
+22:38:10.163 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\dta\bin.pbo' to RV filesystem
+22:38:10.163 ENGINE       : FileSystem: Adding package 'F:\SteamLibrary\steamapps\common\DayZServer\dta\gui.pbo' to RV filesystem
+22:38:10.163 ENGINE       : FileSystem: Added 240 RV banks
+22:38:10.172 ENGINE    (W): No module info used, trying to identify -> 0x95850000
+22:38:10.172 ENGINE       : CPU vendor         : GenuineIntel
+22:38:10.172 ENGINE       : CPU type           : 1
+22:38:10.172 ENGINE       : CPU name           : Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz
+22:38:10.172 ENGINE       : CPU cache info     : L1 [Inst 32KB, Data 32KB], L2 [Unif 256KB], L3 [Unif 6144KB]
+22:38:10.172 ENGINE       : CPU count logical  : 8
+22:38:10.172 ENGINE       : CPU count physical : 4
+22:38:10.172 ENGINE       : CPU features       : mmx sse sse2 sse3 ssse3 sse4_1 sse4_2 aesni pclmulqdq osxsave avx avx2
+22:38:10.172 ENGINE    (W): Adjusting job system settings to have at least one job worker thread.
+22:38:10.189 ENGINE       : FileSystem: Adding relative directory 'F:\SteamLibrary\steamapps\common\DayZServer\profiles' to RV filesystem under name profile
+22:38:10.189 ENGINE       : FileSystem: Adding relative directory 'F:\SteamLibrary\steamapps\common\DayZServer\profiles\Users\Server' to RV filesystem under name saves
+22:38:10.295 SCRIPT       : Module: GameLib; loaded 23x files; 29x classes; used 41/2097 kB (1) of static memory; defines: "DAYZ_1_29,SERVER_FOR_WINDOWS,SERVER,PLATFORM_WINDOWS,RELEASE,NO_GUI,NO_GUI_INGAME,DZ_Expansion_Core_Preload,DZ_Expansion_Garage_Preload,DZ_Expansion_ModStorage_Preload,EXPANSION_MODSTORAGE,DZ_Expansion_Vehicles_Preload,DabsFramework,DZ_Expansion_DefineTest,sakhal,JM_CommunityFramework,CF_MODULE_CONFIG,CF_EXPRESSION,CF_TRACE_STACK_NAME_ASSUMPTION_FIX,CF_GHOSTICONS,CF_MODSTORAGE,CF_SURFACES,CF_MODULES,CF_REF_FIX,CF_BUGFIX_REF,CF_BUGFIX_XML,CF_VIRTUALSTORAGE_FIX,CF_DOUBLYLINKEDNODES,CF_ONUPDATE_RATE_LIMIT,CF_LOG_TIMESTAMP,VorexHeliTaxi,AVPPAdminTools,AVPPAdminToolsTranslate,DZ_Expansion_ModStorage,DZ_Expansion_Core,DZ_Expansion_Garage,DZ_Expansion_NotificationScheduler,DZ_Expansion_VanillaFixes,DZ_Expansion_Vehicles,DayZ,FEATURE_CURSOR,FEATURE_NETWORK_RECONCILIATION,FEATURE_NETWORK_RECONCILATION,EXPANSION_GEQ_1_7_0,EXPANSION_GEQ_1_7_17,EXPANSION_GEQ_1_7_24,EXPANSION_GEQ_1_7_31,EXPANSION_GE
+22:38:10.296 [Inputs] Loading inputs default "bin/constants.xml"
+22:38:10.298 [Inputs] Loading inputs default "bin/specific.xml"
+22:38:10.299 [Inputs] Loading inputs default "VPPAdminTools/data/modded_Inputs.xml"
+22:38:10.299 [Inputs] Loading inputs default "DayZExpansion/Vehicles/Scripts/Data/Inputs.xml"
+22:38:10.300 [Inputs] Loading inputs cfg "profiles\Users\Survivor\Server.core.xml"
+22:38:10.300 !!! [Inputs] Cannot read inputs cfg "profiles\Users\Survivor\Server.core.xml", parser error
+22:38:10.300 [Inputs] Loading inputs cfg "bin/core.xml"
+22:38:10.300 !!! [Inputs] Cannot load input preset "#STR_USER", file does not exist
+22:38:10.302 [Inputs] Exporting inputs cfg "profiles\Users\Survivor\Server.core.xml"
+22:38:10.308 SCRIPT       : Registered 393 temporary action enum(s), UAN==393
+22:38:11.180 SCRIPT       : Module: Game; loaded 831x files; 2327x classes; used 6404/33554 kB (19) of static memory; defines: "DAYZ_1_29,SERVER_FOR_WINDOWS,SERVER,PLATFORM_WINDOWS,RELEASE,NO_GUI,NO_GUI_INGAME,DZ_Expansion_Core_Preload,DZ_Expansion_Garage_Preload,DZ_Expansion_ModStorage_Preload,EXPANSION_MODSTORAGE,DZ_Expansion_Vehicles_Preload,DabsFramework,DZ_Expansion_DefineTest,sakhal,JM_CommunityFramework,CF_MODULE_CONFIG,CF_EXPRESSION,CF_TRACE_STACK_NAME_ASSUMPTION_FIX,CF_GHOSTICONS,CF_MODSTORAGE,CF_SURFACES,CF_MODULES,CF_REF_FIX,CF_BUGFIX_REF,CF_BUGFIX_XML,CF_VIRTUALSTORAGE_FIX,CF_DOUBLYLINKEDNODES,CF_ONUPDATE_RATE_LIMIT,CF_LOG_TIMESTAMP,VorexHeliTaxi,AVPPAdminTools,AVPPAdminToolsTranslate,DZ_Expansion_ModStorage,DZ_Expansion_Core,DZ_Expansion_Garage,DZ_Expansion_NotificationScheduler,DZ_Expansion_VanillaFixes,DZ_Expansion_Vehicles,DayZ,FEATURE_CURSOR,FEATURE_NETWORK_RECONCILIATION,FEATURE_NETWORK_RECONCILATION,EXPANSION_GEQ_1_7_0,EXPANSION_GEQ_1_7_17,EXPANSION_GEQ_1_7_24,EXPANSION_GEQ_1_7_31,EXPANSIO
+22:38:11.187 SCRIPT       : ... Backlit Effects Enabled
+22:38:12.00  SCRIPT       : VPPNotificationManager()
+22:38:12.00  SCRIPT       : [VPPAT] Internal VPPNotifications module loaded!
+22:38:12.00  SCRIPT       : [DayZ Game]:: DayZGame(): Initializing V++ Admin Tools.
+22:38:12.00  SCRIPT       : 22:38:12.000 [EXPANSION LOG]: DayZGame<0x000001EF0A25A070> Start time (local time) 2026-09-02 22:38:04
+22:38:12.00  SCRIPT       : 22:38:12.000 [EXPANSION LOG]: DayZGame<0x000001EF0A25A070> Start time (UTC) 2026-09-02 19:38:04
+22:38:12.00  SCRIPT       : 22:38:12.000 [EXPANSION LOG]: DayZGame<0x000001EF0A25A070> Runtime since start (seconds) 8.543
+22:38:12.00  ANIMATION (E): Can't load @VorexHeliTaxi/Anims/cfg/skeletons.anim.xml
+22:38:12.00  ANIMATION (E): Failed to open file, line 0, column 0
+22:38:12.00  ANIMATION (E): Can't load @VorexAICompanion/Anims/cfg/skeletons.anim.xml
+22:38:12.00  ANIMATION (E): Failed to open file, line 0, column 0
+22:38:12.00  ANIMATION (E): Can't load @DayZ-Expansion-Vehicles/Anims/cfg/skeletons.anim.xml
+22:38:12.00  ANIMATION (E): Failed to open file, line 0, column 0
+22:38:12.00  ANIMATION (E): Can't load @DayZ-Expansion-Licensed/Anims/cfg/skeletons.anim.xml
+22:38:12.00  ANIMATION (E): Failed to open file, line 0, column 0
+22:38:12.00  ANIMATION (E): Can't load @DayZ-Expansion-Core/Anims/cfg/skeletons.anim.xml
+22:38:12.00  ANIMATION (E): Failed to open file, line 0, column 0
+22:38:12.00  ANIMATION (E): Can't load @VPPAdminTools RU Translate/Anims/cfg/skeletons.anim.xml
+22:38:12.00  ANIMATION (E): Failed to open file, line 0, column 0
+22:38:12.00  ANIMATION (E): Can't load @VPPAdminTools/Anims/cfg/skeletons.anim.xml
+22:38:12.00  ANIMATION (E): Failed to open file, line 0, column 0
+22:38:12.00  ANIMATION (E): Can't load @DabsFramework/Anims/cfg/skeletons.anim.xml
+22:38:12.00  ANIMATION (E): Failed to open file, line 0, column 0
+22:38:12.00  ANIMATION (E): Can't load @CF/Anims/cfg/skeletons.anim.xml
+22:38:12.00  ANIMATION (E): Failed to open file, line 0, column 0
+22:38:12.00  ANIMATION (E): Can't load sakhal/Anims/cfg/skeletons.anim.xml
+22:38:12.00  ANIMATION (E): Failed to open file, line 0, column 0
+22:38:12.02  ENGINE       : Skeleton definition successfully loaded (DZ/Anims/cfg/skeletons.anim.xml)
+22:38:12.02  ENGINE       : Enfusion engine successfully created
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather1.farCloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather1.cloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather2.farCloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather2.cloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather3.farCloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather3.cloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather4.farCloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather4.cloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather5.farCloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather5.cloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/LightingNew/C_Day60.spaceIntensity'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/LightingNew/C_Day60.starsIntensity'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/LightingNew/C_Day60.atmosphereIntensity'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/LightingNew/C_Day60.NearCloud'.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather1.farCloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather1.cloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather2.farCloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather2.cloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather3.farCloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather3.cloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather4.farCloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather4.cloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather5.farCloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/Overcast/Weather5.cloud'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/LightingNew/C_Day60.spaceIntensity'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/LightingNew/C_Day60.starsIntensity'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/LightingNew/C_Day60.atmosphereIntensity'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld/Weather/LightingNew/C_Day60.NearCloud'.
+22:38:12.117 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld.volFogOffset'.
+22:38:12.117 Warning Message: Trying to access error value.
+22:38:12.118 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld.spaceObject'.
+22:38:12.118 Warning Message: Trying to access error value.
+22:38:12.118 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld.atmosphereObject'.
+22:38:12.118 Warning Message: Trying to access error value.
+22:38:12.118 Atmosphere not loaded, using old 'sky'.
+22:38:12.118 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld.nearCloudObject'.
+22:38:12.118 Warning Message: Trying to access error value.
+22:38:12.118 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld.cloudObject'.
+22:38:12.118 Warning Message: Trying to access error value.
+22:38:12.118 Warning Message: No entry 'bin\config.bin/CfgWorlds/DefaultWorld.horizonObject'.
+22:38:12.118 Warning Message: Trying to access error value.
+22:38:12.119 WORLD        : PreloadVehicles
+22:38:12.124 PROFILING    : PreloadVehicles took: 4.730100 ms
+22:38:12.425 SCRIPT    (W): @"VorexHeliTaxi/Scripts/4_World/vorexhelitaxiautopilot.c,30": Missing ';' at the end of line
+22:38:12.425 SCRIPT    (E): @"VorexHeliTaxi/Scripts/4_World/vorexhelitaxiautopilot.c,30": Expected ',' or ')', not a ']'
+22:38:12.425 SCRIPT    (E): @"VorexHeliTaxi/Scripts/4_World/vorexhelitaxiautopilot.c,31": Invalid statement ')'
+22:38:12.425 SCRIPT    (E): @"VorexHeliTaxi/Scripts/4_World/vorexhelitaxiautopilot.c,56": Opened scope at the end of file, missing '}' ?
+22:38:12.425 SCRIPT    (E): @"VorexHeliTaxi/Scripts/4_World/vorexhelitaxiautopilot.c,1": Unknown type 'ExpansionVehicleHelicopter'
+22:38:12.425 SCRIPT    (E): Can't compile "World" script module!
+
+VorexHeliTaxi/Scripts/4_World/vorexhelitaxiautopilot.c(30): Expected ',' or ')', not a ']'
+22:38:20.194 SCRIPT    (E): Failed to load entities script!
+22:38:20.271 Warning: CfgWeapons missing in PreloadConfig - may slow down vehicle creation
+22:38:20.271 Warning: CfgMagazines missing in PreloadConfig - may slow down vehicle creation
+22:38:20.271 String "STR_DN_UNKNOWN" not found (not in localization table)
+22:38:20.271 String "STR_DN_TRANSPORT" not found (not in localization table)
+22:38:20.271 String "STR_DN_CAR" not found (not in localization table)
+22:38:20.271 String "STR_DN_BOAT" not found (not in localization table)
+22:38:20.271 String "STR_DN_HELICOPTER" not found (not in localization table)
+22:38:20.271 String "STR_DN_HELICOPTER" not found (not in localization table)
+22:38:20.271 String "STR_DN_UNKNOWN" not found (not in localization table)
+22:38:20.271 String "STR_DN_MAN" not found (not in localization table)
+22:38:20.271 String "STR_DN_ANIMAL" not found (not in localization table)
+22:38:20.271 String "STR_DN_UNKNOWN" not found (not in localization table)
+22:38:20.271 String "STR_DN_BUNKER" not found (not in localization table)
+22:38:20.271 String "STR_DN_UNKNOWN" not found (not in localization table)
+22:38:20.271 String "STR_DN_UNKNOWN" not found (not in localization table)
+22:38:20.271 String "STR_DN_UNKNOWN" not found (not in localization table)
+22:38:20.271 String "STR_DN_UNKNOWN" not found (not in localization table)
+22:38:20.271 String "STR_DN_MAN" not found (not in localization table)
+22:38:20.271 String "STR_DN_MAN" not found (not in localization table)
+22:38:20.271 String "STR_DN_MAN" not found (not in localization table)
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Clothing_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionMoneyBanknote_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.271 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionMoneyBanknote_InsanityStack/DamageSystem.DamageZones'.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.scope'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.model'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.simulation'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.displayName'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.destrType'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.itemsCargoSize'.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.clothingType'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.soundEngine'.
+22:38:20.272 Warning Message: Size: '/' not an array
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.soundCrash'.
+22:38:20.272 Warning Message: Size: '/' not an array
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.soundLandCrash'.
+22:38:20.272 Warning Message: Size: '/' not an array
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.soundWaterCrash'.
+22:38:20.272 Warning Message: Size: '/' not an array
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionKitLarge.reversed'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.scope'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.model'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.simulation'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.displayName'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.destrType'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.itemsCargoSize'.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.clothingType'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.soundEngine'.
+22:38:20.272 Warning Message: Size: '/' not an array
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.soundCrash'.
+22:38:20.272 Warning Message: Size: '/' not an array
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.soundLandCrash'.
+22:38:20.272 Warning Message: Size: '/' not an array
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.soundWaterCrash'.
+22:38:20.272 Warning Message: Size: '/' not an array
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/ExpansionBaseBuilding.reversed'.
+22:38:20.272 Warning Message: Trying to access error value.
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.272 String "STR_DN_ANIMAL" not found (not in localization table)
+22:38:20.272 String "STR_DN_ANIMAL" not found (not in localization table)
+22:38:20.272 Warning Message: No entry 'bin\config.bin/CfgVehicles/Animal_GallusGallusDomesticusF/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/Clothing_Base/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/WorkingGloves_ColorBase/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/TacticalGloves_ColorBase/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/NBCGloves_ColorBase/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/SurgicalGloves_ColorBase/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/LeatherGloves_ColorBase/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/OMNOGloves_ColorBase/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/WoolGloves_ColorBase/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/WoolGlovesFingerless_ColorBase/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/PaddedGloves_ColorBase/DamageSystem.DamageZones'.
+22:38:20.273 Warning Message: No entry 'bin\config.bin/CfgVehicles/SkiGloves_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/BallisticHelmet_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/BaseballCap_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/ConstructionHelmet_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/BeanieHat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/Ushanka_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/MotoHelmet_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/DarkMotoHelmet_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/Headtorch_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/Bandana_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/Shemag_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/RadarCap_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/MilitaryBeret_ColorBase/DamageSystem.DamageZones'.
+22:38:20.274 Warning Message: No entry 'bin\config.bin/CfgVehicles/FlatCap_ColorBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/ZmijovkaCap_ColorBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/CowboyHat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/BoonieHat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/FirefightersHelmet_ColorBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/SkateHelmet_ColorBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/GhillieHood_ColorBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/LeatherHat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/MedicalScrubsHat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/DirtBikeHelmet_ColorBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/NBCHoodBase/DamageSystem.DamageZones'.
+22:38:20.275 Warning Message: No entry 'bin\config.bin/CfgVehicles/HockeyHelmet_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/WitchHood_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/WitchHoodCoif_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/WinterCoif_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/OKZKCap_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/PetushokHat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/Clothing_Base/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/Clothing_Base/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/SnowstormUshanka_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/BudenovkaHat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/SherpaHat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/Clothing_Base/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/T56TankerHelmet_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/MilitaryCap_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/BalaclavaMask_ColorBase/DamageSystem.DamageZones'.
+22:38:20.276 Warning Message: No entry 'bin\config.bin/CfgVehicles/Clothing_Base/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/GP5GasMask_Filter/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/Balaclava3Holes_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/Jeans_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/CargoPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/HunterPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/CanvasPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/CanvasPantsMidi_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/TrackSuitPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/GorkaPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/ParamedicPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/FirefightersPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/LeatherPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.277 Warning Message: No entry 'bin\config.bin/CfgVehicles/MedicalScrubsPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/USMCPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/OMKPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/SlacksPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/NBCPantsBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/Breeches_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/ShortJeans_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/Skirt_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/JumpsuitPants_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/AthleticShoes_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/HikingBoots_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/HikingBootsLow_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/Wellies_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/WorkingBoots_ColorBase/DamageSystem.DamageZones'.
+22:38:20.278 Warning Message: No entry 'bin\config.bin/CfgVehicles/JungleBoots_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/DressShoes_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/MilitaryBoots_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/CombatBoots_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/JoggingShoes_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/LeatherShoes_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/Sneakers_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/NBCBootsBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/Ballerinas_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/TraditionalBoots_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/ColdOperationBoots_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/DownJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.279 Warning Message: No entry 'bin\config.bin/CfgVehicles/Armband_ColorBase/DamageSystem.DamageZones'.
+22:38:20.280 Warning Message: No entry 'bin\config.bin/CfgVehicles/Sweater_ColorBase/DamageSystem.DamageZones'.
+22:38:20.280 Warning Message: No entry 'bin\config.bin/CfgVehicles/Sweater_ChristmasColorbase/DamageSystem.DamageZones'.
+22:38:20.280 Warning Message: No entry 'bin\config.bin/CfgVehicles/Shirt_ColorBase/DamageSystem.DamageZones'.
+22:38:20.280 Warning Message: No entry 'bin\config.bin/CfgVehicles/TShirt_ColorBase/DamageSystem.DamageZones'.
+22:38:20.280 Warning Message: No entry 'bin\config.bin/CfgVehicles/Hoodie_ColorBase/DamageSystem.DamageZones'.
+22:38:20.280 Warning Message: No entry 'bin\config.bin/CfgVehicles/TacticalShirt_ColorBase/DamageSystem.DamageZones'.
+22:38:20.280 Warning Message: No entry 'bin\config.bin/CfgVehicles/HikingJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.280 Warning Message: No entry 'bin\config.bin/CfgVehicles/Raincoat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.280 Warning Message: No entry 'bin\config.bin/CfgVehicles/M65Jacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.280 Warning Message: No entry 'bin\config.bin/CfgVehicles/TTsKOJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/GorkaEJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/RidersJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/WoolCoat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/TrackSuitJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/BushlatPoliceJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/ParamedicJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/FirefighterJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/MiniDress_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/QuiltedJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/BomberJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/LeatherJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/HuntingJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/MedicalScrubsShirt_ColorBase/DamageSystem.DamageZones'.
+22:38:20.281 Warning Message: No entry 'bin\config.bin/CfgVehicles/NurseDress_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/USMCJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/OMKJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/Blouse_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/NBCJacketBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/JumpsuitJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/ManSuit_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/WomanSuit_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/LeatherShirt_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/WinterMilitaryCoat_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/MilitarySweater_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/GulagJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/PilotJacket_ColorBase/DamageSystem.DamageZones'.
+22:38:20.282 Warning Message: No entry 'bin\config.bin/CfgVehicles/PressVest_ColorBase/DamageSystem.DamageZones'.
+22:38:20.283 Warning Message: No entry 'bin\config.bin/CfgVehicles/UKAssVest_ColorBase/DamageSystem.DamageZones'.
+22:38:20.283 Warning Message: No entry 'bin\config.bin/CfgVehicles/HighCapacityVest_ColorBase/DamageSystem.DamageZones'.
+22:38:20.283 Warning Message: No entry 'bin\config.bin/CfgVehicles/LeatherStorageVest_ColorBase/DamageSystem.DamageZones'.
+22:38:20.283 String "STR_DN_MAN" not found (not in localization table)
+22:38:20.306 Warning Message: No entry 'bin\config.bin/CfgVehicles/ItemBook/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/ShelterBase/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/Flag_Base/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/Barrel_ColorBase/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/Bear_ColorBase/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/WaterproofBag_ColorBase/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/GiftBox_Base/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/GiftBox_Base/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/GiftBox_Base/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/GiftBox_Base/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/Spear/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/SeedBase/DamageSystem.DamageZones'.
+22:38:20.307 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/WaterPouch_ColorBase/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/SodaCan_ColorBase/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/Zagorky_ColorBase/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/Snack_ColorBase/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/Candycane_Colorbase/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/FoodCan_250g_ColorBase/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/FoodCan_250g_Opened_ColorBase/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/FoodCan_100g_ColorBase/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/FoodCan_100g_Opened_ColorBase/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/DeadChicken_ColorBase/DamageSystem.DamageZones'.
+22:38:20.308 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.309 Warning Message: No entry 'bin\config.bin/CfgVehicles/CigarettePack_ColorBase/DamageSystem.DamageZones'.
+22:38:20.309 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.309 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.309 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.309 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.310 String "STR_DN_BOAT" not found (not in localization table)
+22:38:20.310 String "STR_DN_CAR" not found (not in localization table)
+22:38:20.310 String "STR_DN_CAR" not found (not in localization table)
+22:38:20.310 String "STR_DN_CAR" not found (not in localization table)
+22:38:20.310 String "STR_DN_CAR" not found (not in localization table)
+22:38:20.310 String "STR_DN_CAR" not found (not in localization table)
+22:38:20.312 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.312 Warning Message: No entry 'bin\config.bin/CfgVehicles/Inventory_Base/DamageSystem.DamageZones'.
+22:38:20.312 WORLD        : Create entity type 'MK4Optic_ColorBase'
+22:38:20.312  WORLD        : Create entity type 'ItemOptics_Base'
+22:38:20.312   ENGINE    (F): Crashed
+=======================================================
+-------------------------------------------------------
+Time: 22:38:20
+Exception code: C0000005 ACCESS_VIOLATION at 95B18B34
+Allocator: system
+graphics:  No
+resolution:  160x120x32
+Addons:
+  DayZExpansion_Objects_TemporaryOwnedContainer in DayZExpansion\Core\Objects\TemporaryOwnedContainer\
+  DZ_Anims_Anm_Player in DZ\anims\anm\player\
+  DZ_Weapons_Shotguns_MP133 in DZ\weapons\shotguns\mp133\
+  DayZExpansion_ModStorage_Scripts in DayZExpansion\ModStorage\Scripts\
+  DZ_Anims_Cfg in DZ\anims\cfg\, DZ_Sounds_Characters in DZ\sounds\Characters\
+  DZ_Weapons_Supports in DZ\weapons\attachments\support\, DZ_Scripts in scripts\
+  DayZExpansion_Core_Scripts in DayZExpansion\Core\Scripts\
+  DayZExpansion_Garage_GUI in DayZExpansion\Garage\GUI\
+  DayZExpansion_Sounds_Vehicles_Air_Mh6 in DayZExpansion\Sounds\Vehicles\Air\Mh6\
+  DayZExpansion_Structures_Industrial_Misc in DayZExpansion\Structures\Industrial\Misc\
+  JM_CF_GUI in JM\CF\GUI\, DZ_Weapons_Firearms in DZ\weapons\firearms\
+  DZ_Weapons_Shotguns_Izh18Shotgun in DZ\weapons\shotguns\izh18shotgun\
+  DZ_Worlds_Enoch_Navmesh in DZ\worlds\enoch\navmesh\
+  DZM_VPPStaticItems in VPPStaticItems\
+  DayZExpansion_Vehicles_Air_Mh6 in DayZExpansion\Vehicles\Air\Mh6\
+  DZ_Weapons_Archery_Crossbow in DZ\weapons\archery\crossbow\
+  DayZExpansion_Sounds_Vehicles_Air_Uh1h in DayZExpansion\Sounds\Vehicles\Air\Uh1h\
+  DZ_Animals_AnimConfig in DZ\animals\animconfig\
+  DZ_Gear_Consumables in DZ\gear\consumables\, DZ_Sounds_AI in DZ\sounds\ai\
+  DayZExpansion_Sounds_Vehicles_Air_Gyro in DayZExpansion\Sounds\Vehicles\Air\Gyro\
+  DZ_Structures_Bliss_Specific in DZ\structures_bliss\specific\
+  DZ_Pistols_mkii in DZ\weapons\pistols\mkii\
+  DZ_Weapons_Firearms_SaigaK in DZ\weapons\shotguns\saiga\, DZ_AI in DZ\AI\
+  DZ_Gear_Books in DZ\gear\books\
+  DayZExpansion_DefineTest in DayZExpansion\DefineTest\
+  DayZExpansion_Sounds_Explosions in DayZExpansion\Sounds\Explosions\
+  DZ_Data_Bliss in DZ\data_bliss\
+  DZ_Weapons_Launchers_RPG7 in DZ\weapons\launchers\rpg7\
+  DZ_Data_Sakhal in DZ\data_sakhal\, DZ_Structures_Rail in DZ\structures\rail\
+  DayZExpansion_Sounds_Ground_TT650 in DayZExpansion\Sounds\Vehicles\Ground\TT650\
+  DayZExpansion_Dta_Game in DayZExpansion\Dta\Game\
+  DayZExpansion_Sounds_Vehicles_Water_LHD in DayZExpansion\Sounds\Vehicles\Water\LHD\
+  DayZExpansion_Sounds_Ground_Bus in DayZExpansion\Sounds\Vehicles\Ground\Bus\
+  DZ_Characters_Vests in DZ\characters\vests\, DZ_Water in DZ\water\
+  DZ_Vehicles_Wheeled in DZ\vehicles\wheeled\
+  DayZExpansion_Core_GUI in DayZExpansion\Core\GUI\
+  DZ_Structures_Bliss_Industrial in DZ\structures_bliss\industrial\
+  DZ_Snow_Rocks in DZ\rocks\snow_rocks\
+  DZ_Weapons_Firearms_M249Para in DZ\weapons\firearms\m249\
+  DZ_Weapons_Melee_Blunt in DZ\weapons\melee\blunt\
+  DZ_Pistols_CZ75 in DZ\weapons\pistols\cz75\
+  DZ_Pistols_Flaregun in DZ\weapons\pistols\flaregun\
+  DayZExpansion_Objects_Airdrop in DayZExpansion\Objects\Airdrop\
+  DZ_data_aiconfigs in DZ\data\aiconfigs\
+  DZ_Structures_BuildingParts in DZ\structures\Proxy_BuildingParts\
+  DZ_Sounds_Weapons in DZ\sounds\weapons\
+  DayZExpansion_Core in DayZExpansion\Core\Stub\
+  DZ_Weapons_Firearms_M4 in DZ\weapons\firearms\m4\
+  DZ_Weapons_Firearms_VSS in DZ\weapons\firearms\vss\
+  DZ_Structures_Walls in DZ\structures\walls\
+  DZ_Weapons_Archery_Bow_pvc in DZ\weapons\archery\bow_pvc\
+  DZ_Animals_ovis_aries in DZ\animals\ovis_aries\
+  DZ_Animals_ovis_aries_fem in DZ\animals\ovis_aries_fem\
+  DZ_Characters_Glasses in DZ\characters\glasses\
+  DayZExpansion_Objects_Structures_Debug in DayZExpansion\Objects\Structures\Debug\
+  DayZExpansion_Vehicles_Water_Boat_01 in DayZExpansion\Vehicles\Water\Boat_01\
+  DZ_Characters_Gloves in DZ\characters\gloves\
+  DZ_Animals_capra_hircus in DZ\animals\capra_hircus\
+  DZ_Weapons_Firearms_CZ550 in DZ\weapons\firearms\cz550\
+  DZ_Pistols_pb6p9 in DZ\weapons\pistols\pb6p9\
+  DayZExpansion_Vehicles_Scripts in DayZExpansion\Vehicles\Scripts\
+  DayZExpansion_Sounds_Ground_N250 in DayZExpansion\Sounds\Vehicles\Ground\N250\
+  DZ_Gear_Crafting in DZ\gear\crafting\, DZ_Gear_Camping in DZ\gear\camping\
+  DayZExpansion_Dta_Core in DayZExpansion\Dta\Core\
+  DayZExpansion_Objects_Structures_Grass_Sample in DayZExpansion\Objects\Structures\Grass_Sample\
+  VPPAdminToolsTranslate in VPPATRUTranslate\, DZ_AI_Bliss in DZ\AI_bliss\
+  DayZExpansion_Sounds_Items_Spraycan in DayZExpansion\Sounds\Items\SprayCan\
+  DayZExpansion_Vehicles_Ground_Tractor in DayZExpansion\Vehicles\Ground\Tractor\
+  DZ_Structures_Wrecks in DZ\structures\wrecks\
+  DZ_Weapons_Firearms_AK74 in DZ\weapons\firearms\ak74\
+  DZ_Weapons_Firearms_CZ527 in DZ\weapons\firearms\cz527\
+  DZ_Weapons_Firearms_SSG82 in DZ\weapons\firearms\ssg82\
+  DZ_Characters_Zombies in DZ\characters\zombies\
+  DayZExpansion_Sounds_Vehicles_Air_HatchBird in DayZExpansion\Sounds\Vehicles\Air\HatchBird\
+  DayZExpansion_NotificationScheduler_Scripts in DayZExpansion\NotificationScheduler\Scripts\
+  DZ_Structures_Bliss_Residential in DZ\structures_bliss\residential\
+  DayZExpansion_Objects_Explosives_Licensed in DayZExpansion\Objects\Weapons\Explosives\
+  DZ_Data in DZ\data\, DZ_Animals_bos_taurus in DZ\animals\bos_taurus\
+  DZ_Sounds_Effects in DZ\sounds\hpp\
+  DayZExpansion_Objects_Gear_Breifcase in DayZExpansion\Core\Objects\Briefcase\
+  DZ_Weapons_Firearms_Winchester70 in DZ\weapons\firearms\winchester70\
+  DZ_Weapons_Firearms_SKS in DZ\weapons\firearms\sks\
+  DZ_Weapons_Muzzles in DZ\weapons\attachments\muzzle\
+  DZ_Water_Bliss in DZ\water_bliss\, DZ_Structures_Roads in DZ\structures\roads\
+  DZM_VPPAdminToolsScripts in VPPAdminTools\
+  DZ_Animals_capreolus_capreolus_fem in DZ\animals\capreolus_capreolus_fem\
+  DZ_Animals_gallus_gallus_domesticus in DZ\animals\gallus_gallus_domesticus\
+  DZ_Surfaces in DZ\surfaces\, DZ_Gear_Cooking in DZ\gear\cooking\
+  DZ_Weapons_Firearms_Trumpet in DZ\weapons\firearms\trumpet\
+  DZ_Weapons_Misc in DZ\weapons\misc\
+  DayZExpansion_Sounds_Ground_Vehicle_CivilianSedan in DayZExpansion\Sounds\Vehicles\Ground\CivilianSedan\
+  RPC_Scripts in JM\CF\Defines\
+  DZ_Structures_Industrial in DZ\structures\industrial\
+  DayZExpansion_Sounds_Ground_Vehicle_Sedan_02 in DayZExpansion\Sounds\Vehicles\Ground\Sedan_02\
+  DZ_Characters_Headgear in DZ\characters\headgear\
+  DZ_Weapons_Launchers_M203 in DZ\weapons\launchers\m203\
+  DZ_Weapons_Projectiles in DZ\weapons\projectiles\
+  DZ_Rocks_Bliss in DZ\rocks_bliss\
+  DayZExpansion_Vehicles_Ground_Vodnik in DayZExpansion\Vehicles\Ground\Vodnik\
+  DZ_Animals_bos_taurus_fem in DZ\animals\bos_taurus_fem\
+  DZ_Characters_Pants in DZ\characters\pants\
+  DayZExpansion_Objects_BaseBuilding_Misc in DayZExpansion\Objects\Basebuilding\Misc\
+  DZ_Weapons_Firearms_MosinNagant in DZ\weapons\firearms\mosin9130\
+  DZ_Weapons_Launchers_M79 in DZ\weapons\launchers\m79\
+  DZ_Pistols_DE in DZ\weapons\pistols\de\
+  DZ_Weapons_Attachments_Data in DZ\weapons\attachments\data\
+  DZ_Spawn_Proxies in DZ\data\proxies\, DZ_UI in DZ\ui\
+  DZ_Structures_Military in DZ\structures\military\
+  DayZExpansion_Vehicles_Ground_Hatchback_02 in DayZExpansion\Vehicles\Ground\Hatchback_02\
+  DZ_Rocks in DZ\rocks\
+  DayZExpansion_Vehicles_Ground_UAZ in DayZExpansion\Vehicles\Ground\UAZ\
+  DayZExpansion_Vehicles_Skins in DayZExpansion\Skins\Vehicles\
+  DayZExpansion_Sounds_Vehicles_Water_Zodiac in DayZExpansion\Sounds\Vehicles\Water\Zodiac\
+  DayZExpansion_Sounds_Common in DayZExpansion\Sounds\Vehicles\Common\
+  DZ_Worlds_ChernarusPlus_CE in DZ\worlds\chernarusplus\ce\
+  DZ_Gear_Containers in DZ\gear\containers\
+  DayZExpansion_Sounds_Vehicles_Air_Bell412 in DayZExpansion\Sounds\Vehicles\Air\Bell412\
+  DZ_Structures in DZ\structures\data\
+  DZ_Structures_Bliss_Walls in DZ\structures_bliss\walls\
+  DZ_Water_Sakhal in DZ\water_sakhal\
+  DZ_Animals_vulpes_vulpes in DZ\animals\vulpes_vulpes\
+  DZ_Weapons_Firearms_aug in DZ\weapons\firearms\aug\
+  DZ_Weapons_Melee_Blade in DZ\weapons\melee\blade\
+  DZ_Weapons_Magazines in DZ\weapons\attachments\magazine\
+  DZ_Worlds_Enoch_Data in DZ\worlds\enoch\data\
+  DayZExpansion_VanillaFixes_Animals in DayZExpansion\VanillaFixes\Animals\
+  DayZExpansion_Vehicles_Ground_LandRover in DayZExpansion\Vehicles\Ground\LandRover\
+  DayZExpansion_LanguageCore_Licensed in DayZExpansion\languagecore\Licensed\
+  DZ_Weapons_Archery_Bow_Recurve in DZ\weapons\archery\bow_recurve\
+  DZ_Gear_Tools in DZ\gear\tools\, DZ_Surfaces_Bliss in DZ\surfaces_bliss\
+  DZ_Pistols_Red9 in DZ\weapons\pistols\red9\
+  DayZExpansion_Vehicles_Ground_Hatchback in DayZExpansion\Vehicles\Ground\OffroadHatchback\
+  DayZExpansion_Core_Objects_Currencies in DayZExpansion\Core\Objects\Currencies\
+  DZ_Structures_Furniture in DZ\structures\furniture\
+  DZ_Weapons_Firearms_SVD in DZ\weapons\firearms\svd\
+  DZ_Sounds_Environment in DZ\sounds\environment\
+  DZ_Animals_capra_hircus_fem in DZ\animals\capra_hircus_fem\
+  DZ_Weapons_Firearms_groza in DZ\weapons\firearms\ots14\
+  DZ_Weapons_Firearms_AK101 in DZ\weapons\firearms\ak101\
+  DZ_Worlds_Sakhal_Navmesh in DZ\worlds\sakhal\navmesh\
+  DayZExpansion_Garage_Preload in 0_DayZExpansion_Garage_Preload\
+  DZ_Weapons_Firearms_Ruger1022 in DZ\weapons\firearms\ruger1022\
+  DayZExpansion_Objects_BaseBuilding_Tents in DayZExpansion\Objects\Basebuilding\Tents\
+  DZ_Weapons_Archery in DZ\weapons\archery\
+  DayZExpansion_Vehicles_Air_HatchBird in DayZExpansion\Vehicles\Air\HatchBird\
+  DZ_Structures_Bliss_Roads in DZ\structures_bliss\roads\
+  DZ_Structures_Ruins in DZ\structures\ruins\
+  DayZExpansion_Vehicles_Ground_TT650 in DayZExpansion\Vehicles\Ground\TT650\
+  DZ_Structures_Bliss_Military in DZ\structures_bliss\military\
+  DZ_Vehicles_Water in DZ\vehicles\water\
+  DZ_Weapons_Firearms_PP19 in DZ\weapons\firearms\pp19\
+  DZ_Weapons_Firearms_pm73rak in DZ\weapons\firearms\pm73rak\
+  DZ_Worlds_Enoch_CE in DZ\worlds\enoch\ce\, DZ_Server_Data in DZ\server\
+  DZ_Structures_Bliss_Rail in DZ\structures_bliss\rail\
+  DZ_Gear_Optics in DZ\gear\optics\, DZ_Characters_Heads in DZ\characters\heads\
+  DayZExpansion_Particles in DayZExpansion\Particles\
+  DZ_Weapons_Firearms_SV98 in DZ\weapons\firearms\sv98\
+  DZ_Weapons_Firearms_UMP in DZ\weapons\firearms\ump45\
+  DZ_Pistols_p1 in DZ\weapons\pistols\p1\
+  DayZExpansion_Vehicles_Air_C130J in DayZExpansion\Vehicles\Air\C130J\
+  DayZExpansion_Structures_Industrial_Power in DayZExpansion\Structures\Industrial\Power\
+  DZ_Worlds_Sakhal_CE in DZ\worlds\sakhal\ce\
+  DZ_Weapons_Explosives in DZ\weapons\explosives\, JM_CF_Scripts in JM\CF\Scripts\
+  DayZExpansion_Objects_BaseBuilding_Gates in DayZExpansion\Objects\Basebuilding\Gates\
+  DZ_Gear_Medical in DZ\gear\medical\, DZ_Animals_Bliss in DZ\animals_bliss\
+  DZ_Weapons_Firearms_Scout in DZ\weapons\firearms\scout\
+  DZ_Worlds_Chernarusplus_World in DZ\worlds\chernarusplus\world\
+  DayZExpansion_Sounds_Ground_OffroadHatchback in DayZExpansion\Sounds\Vehicles\Ground\OffroadHatchback\
+  DZ_Weapons_Archery_Bow_Quickie in DZ\weapons\archery\bow_quickie\
+  DayZExpansion_Sounds_Vehicles_Water_Utility in DayZExpansion\Sounds\Vehicles\Water\Utility\
+  DZ_Weapons_Animations in DZ\weapons\animations\
+  DayZExpansion_Vehicles_Ground_Ikarus in DayZExpansion\Vehicles\Ground\Bus\
+  DayZExpansion_Vehicles_Ground_Offroad_02 in DayZExpansion\Vehicles\Ground\Offroad_02\
+  VorexHeliTaxi in VorexHeliTaxi\, DZ_Radio in DZ\gear\radio\
+  DayZExpansion_ModStorage_Preload in 0_DayZExpansion_ModStorage_Preload\
+  DZ_Structures_Sakhal in DZ\structures_sakhal\
+  DayZExpansion_Objects_Gear_Spraycans in DayZExpansion\Objects\Gear\Spraycans\
+  DZ_Vehicles_Parts in DZ\vehicles\parts\
+  DZ_Weapons_Shotguns_RemingtonR12 in DZ\weapons\shotguns\remington_r12\
+  DZ_Weapons_Shotguns in DZ\weapons\shotguns\
+  DayZExpansion_Vehicles_Air_Uh1h in DayZExpansion\Vehicles\Air\Uh1h\
+  DZ_Gear_Drinks in DZ\gear\drinks\
+  DayZExpansion_Sounds_Vehicles_Water_Vodnik in DayZExpansion\Sounds\Vehicles\Ground\Vodnik\
+  DayZExpansion_Core_Preload in 0_DayZExpansion_Core_Preload\
+  DZ_Characters_Backpacks in DZ\characters\backpacks\
+  DZ_Structures_Signs in DZ\structures\signs\
+  DayZExpansion_VanillaFixes_Scripts in DayZExpansion\VanillaFixes\Scripts\
+  DZ_Gear_Traps in DZ\gear\traps\
+  DayZExpansion_Vehicles_Air_Gyro in DayZExpansion\Vehicles\Air\Gyro\
+  DZ_Sounds_Bliss in DZ\sounds_bliss\, DZ_Plants_Sakhal in DZ\plants_sakhal\
+  DayZExpansion_Core_Objects_Bases in DayZExpansion\Core\Objects\Bases\
+  DayZExpansion_VanillaFixes_GUI in DayZExpansion\VanillaFixes\GUI\
+  DZ_Worlds_Sakhal_Data in DZ\worlds\sakhal\data\
+  DZ_Animals_cervus_elaphus in DZ\animals\cervus_elaphus\
+  DayZExpansion_Vehicles_Air_Merlin in DayZExpansion\Vehicles\Air\Merlin\
+  DZ_Gear_Cultivation in DZ\gear\cultivation\
+  DayZExpansion_Sounds_Ground_Truck_01_Base in DayZExpansion\Sounds\Vehicles\Ground\Truck_01_Base\
+  DayZExpansion_Vehicles_Water_Boat_Utility in DayZExpansion\Vehicles\Water\Utility\
+  DZ_Gear_Navigation in DZ\gear\navigation\
+  DZ_Weapons_Firearms_FAL in DZ\weapons\firearms\fal\
+  DZ_Weapons_Firearms_SCARH in DZ\weapons\firearms\scarh\
+  DZ_Weapons_Launchers in DZ\weapons\launchers\
+  DZ_Pistols_1911 in DZ\weapons\pistols\1911\
+  DZ_Weapons_Firearms_AKM in DZ\weapons\firearms\akm\
+  DayZExpansion_Vehicles_Preload in 0_DayZExpansion_Vehicles_Preload\
+  DayZExpansion_Sounds_Vehicles_Air_An2 in DayZExpansion\Sounds\Vehicles\Air\An2\
+  DZ_Structures_Bliss_Ruins in DZ\structures_bliss\ruins\
+  DZ_Gear_Food in DZ\gear\food\, DZ_data_trackingconfigs in DZ\data\trackingconfigs\
+  DayZExpansion_Sounds_Ground_Vehicle_Hatchback_02 in DayZExpansion\Sounds\Vehicles\Ground\Hatchback_02\
+  DayZExpansion_Structures_Residential_Misc in DayZExpansion\Structures\Residential\Misc\
+  DZ_Weapons_Firearms_M16A2 in DZ\weapons\firearms\m16a2\
+  DZ_Weapons_Firearms_IZH18 in DZ\weapons\firearms\izh18\
+  DZ_Weapons_Melee_Powered in DZ\weapons\melee\powered\
+  DZ_Pistols_FNX45 in DZ\weapons\pistols\fnx45\
+  DZ_Pistols_Glock in DZ\weapons\pistols\glock\
+  DZ_Weapons_Lights in DZ\weapons\attachments\light\
+  DayZExpansion_Vehicles_Air_An2 in DayZExpansion\Vehicles\Air\An2\
+  DZ_Animals in DZ\animals\, JM_CF_Defines in JM\CF\Defines\
+  DZ_Animals_lepus_europaeus in DZ\animals\lepus_europaeus\
+  DayZExpansion_Sounds_Vehicles_Air_Merlin in DayZExpansion\Sounds\Vehicles\Air\Merlin\
+  DZ_Weapons_Firearms_Famas in DZ\weapons\firearms\famas\
+  DZ_Pistols_Derringer in DZ\weapons\pistols\derringer\
+  DayZExpansion_LanguageCore_Garage in DayZExpansion\languagecore\Garage\
+  DF_GUI in DabsFramework\GUI\
+  DayZExpansion_LanguageCore_Core in DayZExpansion\languagecore\Core\
+  DZ_Worlds_Sakhal in DZ\worlds\sakhal\world\
+  DayZExpansion_Vehicles_Objects_Gear in DayZExpansion\Vehicles\Objects\Gear\
+  DZ_Animals_rangifer_tarandus in DZ\animals\rangifer_tarandus\
+  DayZExpansion_VanillaFixes_Sounds in DayZExpansion\VanillaFixes\Sounds\
+  ExpansionProp_AntiAir in DayZExpansion\Vehicles\Objects\AntiAir\
+  DZM_VPPAdminTools in VPPAdminTools\assets\
+  DayZExpansion_LanguageCore_Vehicles in DayZExpansion\languagecore\Vehicles\
+  DZ_Animals_rangifer_tarandus_feminam in DZ\animals\rangifer_tarandus_fem\
+  DZ_Weapons_Firearms_M14 in DZ\weapons\firearms\m14\
+  DZ_Pistols_Magnum in DZ\weapons\pistols\magnum\
+  DayZExpansion_Core_NavmeshCarvers in DayZExpansion\Core\Objects\NavmeshCarvers\
+  DZ_Animals_sus_scrofa in DZ\animals\sus_scrofa\
+  DayZExpansion_Sounds_UI in DayZExpansion\Sounds\UI\
+  DZ_Structures_Bliss_Underground in DZ\structures_bliss\underground\
+  DZ_ModuleZ in DZ\modulesDayz\, DZ_Sounds_Vehicles in DZ\sounds\vehicles\
+  DayZExpansion_Vehicles_Ground_CivilianSedan in DayZExpansion\Vehicles\Ground\CivillianSedan\
+  DayZExpansion_Vehicles_Ground_Truck_01 in DayZExpansion\Vehicles\Ground\Truck_01\
+  DZ_Structures_Data_Bliss in DZ\structures_bliss\data\
+  DZ_Animals_canis_lupus in DZ\animals\canis_lupus\
+  DayZExpansion_Objects_Structures_HangedBody in DayZExpansion\Objects\Structures\hanged_body\
+  DZ_Rocks_Sakhal in DZ\rocks_sakhal\, DZ_Characters_Tops in DZ\characters\tops\
+  DZ_data_aiconfigs_bliss in DZ\data_bliss\aiconfigs\
+  DZ_Plants_Bliss in DZ\plants_bliss\
+  DZ_Animals_cervus_elaphus_feminam in DZ\animals\cervus_elaphus_fem\
+  DZ_Weapons_Firearms_MP5 in DZ\weapons\firearms\mp5\
+  DZ_Weapons_Launchers_LAW in DZ\weapons\launchers\law\
+  DZ_Weapons_Launchers_GP25 in DZ\weapons\launchers\gp25\
+  DZ_Pistols in DZ\weapons\pistols\
+  DZ_Weapons_Optics in DZ\weapons\attachments\optics\
+  DayZExpansion_Core_Objects_CircuitBoard in DayZExpansion\Core\Objects\CircuitBoard\
+  DZ_Characters_Shoes in DZ\characters\shoes\
+  DZ_Weapons_Firearms_Repeater in DZ\weapons\firearms\repeater\
+  DayZExpansion_Garage_Scripts in DayZExpansion\Garage\Scripts\
+  DZ_Weapons_Ammunition in DZ\weapons\ammunition\
+  DayZExpansion_Vehicles_Water_Carrier in DayZExpansion\Vehicles\Water\Carrier\
+  DZ_Animals_sus_domesticus in DZ\animals\sus_domesticus\
+  DayZExpansion_Garage_Objects in DayZExpansion\Garage\Objects\
+  DZ_Data_Data_ParticleEffects in DZ\data\data\particleeffects\
+  DZ_Characters_Masks in DZ\characters\masks\
+  DZ_Structures_Bliss_Wrecks in DZ\structures_bliss\wrecks\
+  DF_Scripts in DabsFramework\Scripts\, DZ_Plants in DZ\plants\
+  DZ_Nonlethal in DZ\weapons\nonlethal\, DZ_Worlds_Enoch in DZ\worlds\enoch\world\
+  DayZExpansion_Vehicles_Ground_Sedan_02 in DayZExpansion\Vehicles\Ground\Sedan_02\
+  DZ_Characters_Belts in DZ\characters\belts\
+  DayZExpansion_Vehicles_Data in DayZExpansion\Vehicles\Data\
+  DZ_Surfaces_Sakhal in DZ\surfaces_sakhal\
+  DZ_Weapons_Firearms_cz61 in DZ\weapons\firearms\cz61\
+  DZ_Animals_capreolus_capreolus in DZ\animals\capreolus_capreolus\
+  DZ_Structures_Residential in DZ\structures\residential\
+  DayZExpansion_Vehicles_Water_Boat_Zodiac in DayZExpansion\Vehicles\Water\Zodiac\
+  DayZExpansion_Vehicles_Ground_250N in DayZExpansion\Vehicles\Ground\250N\
+  DZ_Animals_ursus_arctos in DZ\animals_bliss\ursus_arctos\
+  DZ_Animals_gallus_gallus_domesticus_feminam in DZ\animals\gallus_gallus_domesticus_feminam\
+  DZ_Structures_Bliss_Signs in DZ\structures_bliss\signs\
+  DZ_weapons_nonlethal_DartGun in DZ\weapons\nonlethal\dartgun\
+  DZ_Pistols_Encore in DZ\weapons\pistols\longhorn\
+  DZ_Pistols_pmm in DZ\weapons\pistols\pmm\
+  DZ_Weapons_Shotguns_Izh43 in DZ\weapons\shotguns\izh43\
+  DayZExpansion_Vehicles_GUI in DayZExpansion\Vehicles\GUI\
+  DZ_Structures_Specific in DZ\structures\specific\
+  DayZExpansion_Vehicles_Ground_oldbike in DayZExpansion\Vehicles\Ground\OldBike\
+  DZ_Characters in DZ\characters\data\
+  DZ_Weapons_Firearms_B95 in DZ\weapons\firearms\b95\
+  DZ_Weapons_Melee in DZ\weapons\melee\
+  DZ_Nonlethal_Shockpistol in DZ\weapons\nonlethal\shockpistol\
+Mods: @CF;@DabsFramework;@VPPAdminTools;@VPPAdminTools RU Translate;@DayZ-Expansion-Core;@DayZ-Expansion-Licensed;@DayZ-Expansion-Vehicles;@VorexAICompanion;@VorexHeliTaxi
+Version 1.29.163709
+Fault address:  95B18B34 00:95B18B34 Unknown module
+file:     
+world:    ChernarusPlus
+Prev. code bytes: 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20
+Fault code bytes: 48 8B 02 48 8B F2 41 0F B6 D8 48 8B E9 45 33 C0
+=======================================================
+note: Minidump has been generated into the file profiles\DayZServer_x64_2026-09-02_22-38-20.mdmp
