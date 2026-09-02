@@ -10,7 +10,7 @@ modded class ExpansionVehicleHelicopter
         if (!m_Initialized)
             return;
 
-        // Автоматический запуск двигателя
+        // Тестовый автозапуск двигателя без пилота
         if (!pState.m_HasDriver && !m_VorexEngineTestStarted)
         {
             m_VorexEngineTestStarted = true;
@@ -20,7 +20,7 @@ modded class ExpansionVehicleHelicopter
             Print("[VorexHeliTaxi] TEST: Engine START command sent");
         }
 
-        // Включаем AutoHover Expansion
+        // Включаем AutoHover на высоте 6 метров
         if (!pState.m_HasDriver && !m_VorexAutoHoverTestStarted)
         {
             m_VorexAutoHoverTestStarted = true;
@@ -40,10 +40,11 @@ modded class ExpansionVehicleHelicopter
         if (pDriver)
             return;
 
-        // Тестовое горизонтальное движение
+        // Тестовое управление без пилота
         m_CyclicForwardTarget = 0.20;
         m_CyclicSideTarget = 0.0;
         m_AntiTorqueTarget = 0.0;
+        m_CollectiveTarget = 0.65;
 
         UpdateController();
     }
