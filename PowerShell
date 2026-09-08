@@ -1,0 +1,1369 @@
+PS C:\WINDOWS\System32> Get-ChildItem "C:\ExpansionResearch\@DayZ-Expansion-AI" -Recurse -Include *.c | Select-String -Pattern "\.Start\(" -Context 3,5
+
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:789:                                TVectorArray GetSpawnPointPosit
+ions()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:790:                                {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:791:                                #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:792:
+auto trace = EXTrace.Start(tru
+e, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:793:                                #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:794:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:795:
+auto ce = ExpansionCE.GetInsta
+nce();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:796:
+ce.LoadPlayerSpawnpoints();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:797:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:815:                                array<ref TVectorArray> GetClus
+ters(TVectorArray positions, float maxDistance)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:816:                                {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:817:                                #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:818:
+auto trace = EXTrace.Start(tru
+e, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:819:                                #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:820:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:821:
+array<ref TVectorArray> cluste
+rs = {};
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:822:
+map<int, bool> seen = new map<
+int, bool>;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:823:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:876:                                void DefaultRoamingPatrols(arra
+y<ref TVectorArray> clusters)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:877:                                {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:878:                                #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:879:
+auto trace = EXTrace.Start(tru
+e, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:880:                                #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:881:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:882:
+int include;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:883:
+include |= ExpansionLocationTy
+pe.CAMP;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Settings\Patrols\ExpansionAIPatrolSettings.c:884:
+include |= ExpansionLocationTy
+pe.RUIN;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\ExpansionGame.c:29: void RPC_SetInGroup(PlayerIdentity sender, Object target, Par
+amsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\ExpansionGame.c:30: {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\ExpansionGame.c:31: #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\ExpansionGame.c:32:         auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\ExpansionGame.c:33: #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\ExpansionGame.c:34:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\ExpansionGame.c:35:         bool group;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\ExpansionGame.c:36:         if (ctx.Read(group))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\ExpansionGame.c:37:                SetInGroup(group);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Hive.c:1:Hive Expansion_GlobalGetHive()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Hive.c:2:{
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Hive.c:3:   #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Hive.c:4:   auto trace = EXTrace.Start(EXTrace.AI, null);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Hive.c:5:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Hive.c:6:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Hive.c:7:   return GetHive();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\3_Game\DayZExpansion_AI\Hive.c:8:}
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:89:
+{
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:90:
+        m_CurrentActionData = m_PendingActionDa
+ta;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:91:
+
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:92:
+        m_CurrentActionData.m_Action.Start(m_Cu
+rrentActionData);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:93:
+
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:94:
+        if ( m_CurrentActionData.m_Action.IsIns
+tant() )
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:95:
+                OnActionEnd();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:96:
+
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:97:
+        m_PendingActionData = null;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:113:
+                        if ( m_ActionPossible && pCurrentCom
+mandID != DayZPlayerConstants.COMMANDID_SWIM && pCurrentCommandID != DayZPlayerConstants.COMMANDID_LADDER && ( !m_Player.IsRestrained() || m_CurrentActionData.m_Acti
+on.CanBeUsedInRestrain() ) )
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:114:
+                        {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:115:
+                                m_CurrentActionData.m_State = UA_ST
+ART;
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:116:
+                                m_CurrentActionData.m_Action.Start(
+m_CurrentActionData);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:117:
+
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:118:
+                                if ( m_CurrentActionData.m_Action.I
+sInstant() )
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:119:
+                                        OnActionEnd();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:120:
+                        }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:121:
+                        else
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:243:
+                Debug.ActionLog("Action data created
+wait to start", action.ToString() , "n/a", "ActionStart", m_Player.ToString() );
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:244:
+        }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:245:
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:246:
+        action.Start(m_CurrentActionData);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:247:
+        if( action.IsInstant() )
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:248:
+                OnActionEnd();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:249:
+}
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:250:                                         }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionManager.c:251:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponControl.c:44:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponControl.c:45:                                    override void Start(ActionData acti
+on_data)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponControl.c:46:                                    {
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponControl.c:47:
+super.Start(action_data);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponControl.c:48:
+
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponControl.c:49:
+action_data.m_State = UA_PROCESSIN
+G;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponControl.c:50:                                    }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponControl.c:51:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponControl.c:52:                                    override void OnUpdate(ActionData a
+ction_data)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponUnjam.c:2:{
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponUnjam.c:3:                                       override void Start(ActionData action_
+data)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponUnjam.c:4:                                       {
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponUnjam.c:5:
+super.Start(action_data);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponUnjam.c:6:
+
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponUnjam.c:7:
+action_data.m_Player.GetWeaponManager
+().Unjam(this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponUnjam.c:8:                                       }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Actions\eAIActionWeaponUnjam.c:9:};
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:6:                        Expansion_EffectArea_Cl
+usters FindClusters()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:7:                        {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:8:                        #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:9:
+auto trace = EXTrace.S
+tart(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:10:                       #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:11:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:12:
+Expansion_EffectArea_
+Clusters clusters = {};
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:13:
+set<int> cluster_i;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:14:
+set<int> cluster_j;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:133:                      void UpdateClusters(E
+ffectArea area)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:134:                      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:135:                      #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:136:
+auto trace = EXTrace
+.Start(EXTrace.AI, this, ExpansionStatic.GetDebugInfo(area));
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:137:                      #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:138:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:139:
+//! @note cluster.m_
+Areas must only contain areas that are not contained (completely inside) other areas!
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:140:
+ExpansionEffectAreaM
+ergedCluster cluster;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:141:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:263:                      ExpansionEffectAreaMe
+rgedClusters MergeClusters()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:264:                      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:265:                      #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:266:
+auto trace = EXTrace
+.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:267:                      #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:268:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:269:
+ExpansionEffectAreaM
+ergedClusters mergedClusters = {};
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:270:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:271:
+foreach (auto cluste
+r: this)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:323:                      void Update()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:324:                      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:325:                      #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:326:
+auto trace = EXTrace
+.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:327:                      #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:328:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:329:
+float xSum;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:330:
+float ySum;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:331:
+float zSum;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:699:                      void RemoveNonOverlap
+pingAndUpdate()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:700:                      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:701:                      #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:702:
+auto trace = EXTrace
+.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:703:                      #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:704:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:705:
+int count = m_Areas.
+Count();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:706:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ContaminatedArea\ExpansionEffectAreaCluster.c:707:
+EffectArea area;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\PathFinding\ExpansionPathHandler.c:541:
+}
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\PathFinding\ExpansionPathHandler.c:542:                                 #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\PathFinding\ExpansionPathHandler.c:543:
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\PathFinding\ExpansionPathHandler.c:544:
+m_TimeIt.Start();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\PathFinding\ExpansionPathHandler.c:545:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\PathFinding\ExpansionPathHandler.c:546:
+m_Time += pDt;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\PathFinding\ExpansionPathHandler.c:547:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\PathFinding\ExpansionPathHandler.c:548:
+if (m_AllowJumpClimb_Timeout >
+0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\PathFinding\ExpansionPathHandler.c:549:
+        m_AllowJumpClimb_Timeout -= pD
+t;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:349:                                         private eAIBase CreateAI(vector pos)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:350:                                         {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:351:                                         #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:352:
+auto trace = EXTrace.Start(EXTrace.AI,
+this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:353:                                         #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:354:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:355:
+string unit;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:356:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:357:
+if (m_Units)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:365:                                         private eAIBase SpawnAI(vector pos)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:366:                                         {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:367:                                         #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:368:
+auto trace = EXTrace.Start(EXTrace.AI,
+this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:369:                                         #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:370:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:371:
+pos = ExpansionAIPatrol.GetPlacementPos
+ition(pos);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:372:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:373:
+eAIBase ai = CreateAI(pos);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:545:                                         void Spawn()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:546:                                         {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:547:                                         #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:548:
+auto trace = EXTrace.Start(EXTrace.AI,
+this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:549:                                         #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:550:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:551:
+if (m_Group) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:552:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:553:
+m_TimeSinceLastSpawn = 0;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:657:                                         void SpawnAI_Deferred(int i)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:658:                                         {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:659:                                         #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:660:
+auto trace = EXTrace.Start(EXTrace.AI,
+this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:661:                                         #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:662:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:663:
+if (m_Group)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:664:
+{
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:665:
+        eAIBase ai = SpawnAI(m_Formation.ToWor
+ld(m_Formation.GetPosition(i)));
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:675:                                         void Despawn(bool deferDespawnUntilLoosi
+ngAggro = false)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:676:                                         {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:677:
+#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:678:
+auto trace = EXTrace.Start(EXTrace.AI,
+this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:679:
+#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:680:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:681:
+if (!m_IsSpawned)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:682:
+        return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrol.c:683:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrolSphereTrigger.c:25:                             void eAI_SetParams(eAIDynami
+cPatrol patrol, float outerRadius, float innerRadius = 0.0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrolSphereTrigger.c:26:                             {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrolSphereTrigger.c:27:                             #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrolSphereTrigger.c:28:
+auto trace = EXTrace.Start(
+EXTrace.AI, this, "" + GetPosition());
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrolSphereTrigger.c:29:                             #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrolSphereTrigger.c:30:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrolSphereTrigger.c:31:
+m_eAI_Patrol = patrol;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrolSphereTrigger.c:32:
+m_eAI_InnerRadiusSq = inner
+Radius * innerRadius;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Patrols\eAIDynamicPatrolSphereTrigger.c:33:
+SetCollisionSphere(outerRad
+ius);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:20:
+        return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:21:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:22:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:23:
+auto trace = EXTrace.Start(EXTrace.A
+I, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:24:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:25:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:26:
+RemoveFromAll();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:27:                                      }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:28:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:317:                                     eAITarget InsertAI(eAIBase ai, bool
+initialUpdate = true)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:318:                                     {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:319:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:320:
+auto trace = EXTrace.Start(EXTrace.
+AI, this, "" + ai, "" + initialUpdate);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:321:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:322:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:323:
+eAITarget target = new eAITarget(ai
+, this, initialUpdate);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:324:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:325:
+m_Targets.Insert(ai, target);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:388:                                     void AddFriendlyAI(DayZPlayerImpleme
+nt player, int maxTime = -1, bool update = true, float threat = 0.0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:389:                                     {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:390:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:391:
+auto trace = EXTrace.Start(EXTrace.
+AI, this, "" + player, "" + maxTime, "" + update, "" + threat);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:392:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:393:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:394:
+eAIBase ai;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:395:
+if (Class.CastTo(ai, player))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:396:
+        GetTargetForAIEx(ai, false);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:481:                                     bool RemoveAI(eAIBase ai)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:482:                                     {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:483:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:484:
+auto trace = EXTrace.Start(EXTrace.
+AI, this, "" + ai);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:485:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:486:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:487:
+eAITarget target;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:488:
+if (!m_Targets.Find(ai, target))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:489:
+        return false;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:533:                                     void RemoveFromAll()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:534:                                     {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:535:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:536:
+auto trace = EXTrace.Start(EXTrace.
+AI, this, GetEntityDebugName(), "" + m_Targets.Count());
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:537:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:538:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:539:
+foreach (eAIBase ai, eAITarget targ
+et: m_Targets)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:540:
+{
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:541:
+        if (target.m_IsTracked)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:632:                                     void OnDeath(Object killer)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:633:                                     {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:634:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:635:
+auto trace = EXTrace.Start(EXTrace.
+AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:636:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:637:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:638:
+RemoveFromAll();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:639:                                     }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\Targets\eAITargetInformation.c:640:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:153:    static void DeleteGroup(eAIGroup group)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:154:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:155:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:156:           auto trace = EXTrace.Start(EXTrace.AI, eAIGroup, "" + g
+roup);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:157:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:158:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:159:           int index = s_AllGroups.Find(group);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:160:           if (index > -1)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:161:           {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:204:    void Delete()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:205:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:206:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:207:           auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:208:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:209:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:210:           g_Game.GetCallQueue(CALL_CATEGORY_SYSTEM).Call(DeleteGr
+oup, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:211:    }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:212:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:497:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:498:                                                         #ifdef DIAG_DEVELOPER
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:499:
+EXTrace.Print(EXTrace.AI, this, "Found " + candidates
+.Count() + " candidates (" + timeIt2.GetElapsedMS() + "ms)");
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:500:
+timeIt2.Start();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:501:                                                         #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:502:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:503:
+//! Pick a random candidate, if candidate is not excl
+uded, loop ends instantly. If candidate is excluded,
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:504:
+//! it is removed from the pool and loop is repeated
+until a suitable candidate is found, all candidates have been exhausted
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:505:
+//! or limit is reached.
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:708:    void AddTarget(DayZPlayerImplement player, eAITargetInfo
+rmation info, int max_time = -1, bool update = true, float threat = 0.0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:709:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:710:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:711:           auto trace = EXTrace.Start(EXTrace.AI, this, info.GetDe
+bugName(), "" + max_time, "" + update, "" + threat);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:712:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:713:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:714:           eAIBase ai;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:715:           eAITarget target;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:716:           bool created;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:989:    bool RemoveMember(DayZPlayerImplement member, bool autoD
+elete = true)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:990:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:991:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:992:           auto trace = EXTrace.Start(EXTrace.AI, this, "" + membe
+r, "" + autoDelete);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:993:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:994:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:995:           return RemoveMember(m_Members.Find(member), autoDelete)
+;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:996:    }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:997:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:998:    bool RemoveMember(int i, bool autoDelete = true)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:999:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1000:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1001:          auto trace = EXTrace.Start(EXTrace.AI, this, "" + i, "
+" + autoDelete);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1002:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1003:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1004:          if (i < 0 || i >= m_Members.Count())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1005:                                                        return false;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1006:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1031:   bool RemoveDeceased(DayZPlayerImplement member)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1032:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1033:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1034:          auto trace = EXTrace.Start(EXTrace.AI, this, "" + memb
+er);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1035:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1036:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1037:          return RemoveDeceased(m_Members_Deceased.Find(member))
+;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1038:   }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1039:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1040:   bool RemoveDeceased(int i)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1041:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1042:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1043:          auto trace = EXTrace.Start(EXTrace.AI, this, "" + i);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1044:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1045:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1046:          if (i < 0 || i >= m_Members_Deceased.Count())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1047:                                                        return false;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1048:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1061:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1062:   #ifdef SERVER
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1063:   #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1064:          auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1065:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1066:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1067:          if (m_Members.Count() <= 2 && m_Members.Count() != m_M
+emberCount)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1068:          {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1069:                                                        m_MemberCount = m_Members.Count();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1098:   void SetIsInCombat(bool state)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1099:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1100:   #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1101:          auto trace = EXTrace.Start(EXTrace.AI, this, "" + stat
+e);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1102:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1103:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1104:          if (!state && m_IsInCombat)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1105:          {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1106:                                                        eAIBase ai;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1219:   void ClearAI(bool autodelete = true, bool deferDespawnU
+ntilLoosingAggro = false)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1220:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1221:   #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1222:          auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1223:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1224:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1225:          int i;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1226:          eAIBase ai;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1227:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1405:   static void SaveAllPersistentGroups()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1406:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1407:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1408:          auto trace = EXTrace.Start(EXTrace.AI, eAIGroup);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1409:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1410:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1411:          foreach (eAIGroup group: s_PersistentGroups)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1412:          {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\eAIGroup.c:1413:                                                        if (group.Count() > 0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ExpansionWorld.c:120:     void GenerateRoamingLocations()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ExpansionWorld.c:121:     {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ExpansionWorld.c:122:     #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ExpansionWorld.c:123:                                                   auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ExpansionWorld.c:124:     #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ExpansionWorld.c:125:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ExpansionWorld.c:126:                                                   auto settings = GetExpansionSettings().GetAILocat
+ion();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ExpansionWorld.c:127:                                                   auto excludedAreas = settings.NoGoAreas;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Classes\ExpansionWorld.c:128:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:753: override void EEOnCECreate()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:754: {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:755: #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:756:        auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:757: #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:758:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:759:        super.EEOnCECreate();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:760:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:761:        ExpansionHumanLoadout.Apply(this, "FreshSpawnLoadout
+");
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:767: override void OnDebugSpawn()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:768: {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:769: #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:770:        auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:771: #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:772:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:773:        ExpansionHumanLoadout.Apply(this, "FreshSpawnLoadout
+");
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:774:        eAI_SetLootingBehavior(eAILootingBehavior.ALL);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:775:        SetMovementSpeedLimits(2, 3);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:812:                                                      int idx = eAIGroup.s_PersistentGroups.Find(group);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:813:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:814:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:815:                                                      auto trace = EXTrace.Start(EXTrace.AI, this, "persi
+stent group '" + group.GetName() + "' index " + idx + " current " + eAIGroup.s_eAI_CurrentPersistIndex);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:816:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:817:
+
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:818:                                                      if (idx != eAIGroup.s_eAI_CurrentPersistIndex && Pl
+ayerBase.Expansion_GetOnlinePlayersCount() > 0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:819:
+return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:820:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1355:       override void EEKilled(Object killer)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1356:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1357:       #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1358:                                                     auto trace = EXTrace.Start(EXTrace.AI, this, "" + k
+iller);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1359:       #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1360:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1361:                                                     super.EEKilled(killer);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1362:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1363:                                                     if (s_eAI_Alive)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1386:       override protected void eAI_Cleanup(bool autoDeleteG
+roup = false)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1387:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1388:       #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1389:                                                     auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1390:       #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1391:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1392:                                                     array<ref eAITargetInformation> targets = {};
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1393:                                                     foreach (eAITargetInformation info, eAITarget state
+: m_eAI_TargetInformationStates)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1394:                                                     {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1583:       Magazine eAI_GetMagazineToReload(Weapon_Base weapon,
+ bool unlimitedReload = false)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1584:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1585:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1586:                                                     auto trace = EXTrace.Start(EXTrace.AI, eAIBase, wea
+pon.ToString(), "unlimitedReload " + unlimitedReload);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1587:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1588:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1589:                                                     eAIWeaponManager weapon_manager = eAIWeaponManager.
+Cast(GetWeaponManager());
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1590:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1591:                                                     Magazine ammo_magazine; // magazine
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1738:       void eAI_SetAccuracy(float accuracyMin, float accura
+cyMax)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1739:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1740:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1741:                                                     auto trace = EXTrace.Start(EXTrace.AI, eAIBase);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1742:                                                     EXTrace.Add(trace, accuracyMin);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1743:                                                     EXTrace.Add(trace, accuracyMax);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1744:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1745:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1746:                                                     if (accuracyMin <= 0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1764:       void eAI_SetThreatDistanceLimit(float distance)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1765:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1766:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1767:                                                     auto trace = EXTrace.Start(EXTrace.AI, eAIBase);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1768:                                                     EXTrace.Add(trace, distance);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1769:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1770:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1771:                                                     if (distance <= 0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1772:                                                     {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1790:       void eAI_SetNoiseInvestigationDistanceLimit(float di
+stance)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1791:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1792:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1793:                                                     auto trace = EXTrace.Start(EXTrace.AI, eAIBase);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1794:                                                     EXTrace.Add(trace, distance);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1795:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1796:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1797:                                                     if (distance <= 0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1798:
+distance = GetExpansionSettings().GetAI().NoiseInv
+estigationDistanceLimit;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1807:       void eAI_SetMaxFlankingDistance(float distance)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1808:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1809:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1810:                                                     auto trace = EXTrace.Start(EXTrace.AI, eAIBase);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1811:                                                     EXTrace.Add(trace, distance);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1812:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1813:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1814:                                                     if (distance <= 0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1815:
+distance = GetExpansionSettings().GetAI().MaxFlank
+ingDistance;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1825:       void eAI_SetEnableFlankingOutsideCombat(int option)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1826:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1827:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1828:                                                     auto trace = EXTrace.Start(EXTrace.AI, eAIBase);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1829:                                                     EXTrace.Add(trace, option);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1830:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1831:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1832:                                                     if (option <= 0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1833:
+option = GetExpansionSettings().GetAI().EnableFlan
+kingOutsideCombat;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1843:       void eAI_SetDamageMultiplier(float multiplier)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1844:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1845:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1846:                                                     auto trace = EXTrace.Start(EXTrace.AI, eAIBase);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1847:                                                     EXTrace.Add(trace, multiplier);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1848:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1849:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1850:                                                     if (multiplier <= 0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1851:
+multiplier = GetExpansionSettings().GetAI().Damage
+Multiplier;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1860:       void eAI_SetDamageReceivedMultiplier(float multiplie
+r)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1861:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1862:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1863:                                                     auto trace = EXTrace.Start(EXTrace.AI, eAIBase);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1864:                                                     EXTrace.Add(trace, multiplier);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1865:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1866:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1867:                                                     if (multiplier <= 0)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:1868:
+multiplier = GetExpansionSettings().GetAI().Damage
+ReceivedMultiplier;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4469:       override void OnCommandSwimStart()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4470:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4471:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4472:                                                     auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4473:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4474:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4475:                                                     ItemBase itemInHands = GetItemInHands();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4476:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4477:                                                     //! Switch off hand item when starting to swim
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4514:       override void OnCommandSwimFinish()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4515:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4516:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4517:                                                     auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4518:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4519:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4520:                                                     TryHideItemInHands(false, true);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4521:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:4522:                                                     GetWeaponManager().RefreshAnimationState();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9061:       int eAI_FillAnyCompatibleMag(Weapon_Base weapon, Mag
+azine ammoSource, bool deleteSourceIfDepleted = false)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9062:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9063:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9064:                                                     auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9065:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9066:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9067:                                                     int numberOfTransferredCartridges;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9068:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9069:                                                     foreach (Magazine magToFill: m_eAI_Magazines)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9160:       void Expansion_TryTurningOnAnyLightsOrNVGEx(bool ski
+pNonNVG = false, bool skipNVG = false)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9161:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9162:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9163:                                                     auto trace = EXTrace.Start(EXTrace.AI, eAIBase);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9164:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9165:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9166:                                                     if (IsUnconscious() || IsRestrained())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9167:
+return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9168:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9225:       void Expansion_TryTurningOffAnyLightsOrNVG(bool skip
+NVG = false)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9226:       {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9227:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9228:                                                     auto trace = EXTrace.Start(EXTrace.AI, eAIBase);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9229:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9230:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9231:                                                     if (IsUnconscious() || IsRestrained())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9232:
+return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:9233:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10197:      bool eAI_DropItemInHands(bool useAction = true)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10198:      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10199:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10200:                                                    auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10201:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10202:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10203:                                                    ItemBase itemInHands = GetItemInHands();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10204:                                                    if (itemInHands)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10205:
+return eAI_DropItem(itemInHands, useAction);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10210:      bool eAI_DropItemInHandsImpl(bool overrideThreat =
+false, bool switchOff = true, bool remember = true)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10211:      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10212:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10213:                                                    auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10214:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10215:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10216:                                                    ItemBase itemInHands = GetItemInHands();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10217:                                                    if (itemInHands)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10218:
+return eAI_DropItemImpl(itemInHands, overrideThre
+at, switchOff, remember);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10223:      bool eAI_DropItem(ItemBase item, bool useAction = t
+rue, bool switchOff = true, bool remember = true)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10224:      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10225:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10226:                                                    auto trace = EXTrace.Start(EXTrace.AI, this, "" +
+item);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10227:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10228:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10229:                                                    if (!useAction || item != GetItemInHands())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10230:
+return eAI_DropItemImpl(item, eAI_GetThreatOverri
+de(item), switchOff, remember);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10231:                                                    else if (StartAction(eAIActionDropItem, null, item
+))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10237:      bool eAI_DropItemImpl(ItemBase item, bool overrideT
+hreat = false, bool switchOff = true, bool remember = true)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10238:      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10239:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10240:                                                    auto trace = EXTrace.Start(EXTrace.AI, this, "" +
+item);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10241:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10242:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10243:                                                    InventoryLocation il_dst = new InventoryLocation()
+;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10244:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10245:                                                    GameInventory.SetGroundPosByOwner(this, item, il_d
+st);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10289:      bool eAI_TakeItemToHands(ItemBase item, bool useAct
+ion = true)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10290:      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10291:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10292:                                                    auto trace = EXTrace.Start(EXTrace.AI, this, "" +
+item);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10293:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10294:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10295:                                                    if (item.GetHierarchyRootPlayer() == this || !useA
+ction)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10296:
+return eAI_TakeItemToHandsImpl(item);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10297:                                                    else if (StartActionObject(eAIActionTakeItemToHand
+s, item))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10303:      bool eAI_TakeItemToHandsImpl(ItemBase item)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10304:      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10305:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10306:                                                    auto trace = EXTrace.Start(EXTrace.AI, this, "" +
+item);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10307:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10308:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10309:                                                    if (!item)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10310:
+return false;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10311:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10390:      bool eAI_TakeItemToInventory(ItemBase item, bool us
+eAction = true)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10391:      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10392:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10393:                                                    auto trace = EXTrace.Start(EXTrace.AI, this, "" +
+item);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10394:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10395:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10396:                                                    if (!item)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10397:
+return false;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10398:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10476:      bool eAI_TakeItemToInventoryImpl(ItemBase item, Fin
+dInventoryLocationType flags = 0, bool threatOverrideOnFailure = true)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10477:      {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10478:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10479:                                                    auto trace = EXTrace.Start(EXTrace.AI, this, "" +
+item);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10480:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10481:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10482:                                                    if (!item)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10483:
+return false;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:10484:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:11680:
+ * TODO: Add support for animation action logic t
+o FSM states
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:11681:
+ * TODO: FSM file just for doors. Opening, pickin
+g, breaking, closing. Vehicles and Buildings.
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:11682:
+ *
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:11683:
+ *      GetFSM().Start("OpenDoor")
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:11684:
+ *
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:11685:
+ * Events are stored in the transitions
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:11686:
+ */
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:11687:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\AI\eAIBase.c:11688:
+//! Decrease chance of AI getting stuck between w
+all and opened door by temporarily stopping before opening
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Buildings\BuildingBase.c:307:
+}
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Buildings\BuildingBase.c:308:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Buildings\BuildingBase.c:309:                                          #ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Buildings\BuildingBase.c:310:
+auto trace = EXTrace.Start(EXTrace.AI, t
+his, type);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Buildings\BuildingBase.c:311:                                          #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Buildings\BuildingBase.c:312:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Buildings\BuildingBase.c:313:
+m_Expansion_Ladders = new map<int, ref E
+xpansionLadder>;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Buildings\BuildingBase.c:314:
+s_Expansion_BuildingsWithLadders[type] =
+ m_Expansion_Ladders;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Buildings\BuildingBase.c:315:
+m_Expansion_LaddersCount = 0;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\FSM\States\WeaponStateBase.c:5:
+if (HasFSM() && !m_fs
+m.IsRunning())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\FSM\States\WeaponStateBase.c:6:
+{
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\FSM\States\WeaponStateBase.c:7:
+        if (LogManager.IsWea
+ponLogEnable()) { wpnDebugPrint("[wpnfsm] " + Object.GetDebugName(m_weapon) + " { " + this.Type().ToString() + "  Has Sub-FSM! Starting submachine..."); }
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\FSM\States\WeaponStateBase.c:8:
+        m_fsm.Start(e);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\FSM\States\WeaponStateBase.c:9:
+}
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\FSM\States\WeaponStateBase.c:10:
+else
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\FSM\States\WeaponStateBase.c:11:
+        if (LogManager.IsWe
+aponLogEnable()) { wpnDebugPrint("[wpnfsm] " + Object.GetDebugName(m_weapon) + " { " + this.Type().ToString()); }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\FSM\States\WeaponStateBase.c:12:                      }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\FSM\States\WeaponStateBase.c:13:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:699:                                    override ItemBase Expansion_GetAnyL
+ightOrNVG(bool skipNonNVG = false, bool skipNVG = false)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:700:                                    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:701:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:702:
+auto trace = EXTrace.Start(EXTrace
+.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:703:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:704:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:705:
+ItemOptics optic;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:706:
+if (!skipNVG && Class.CastTo(optic
+, GetAttachedOptics()) && optic.GetCurrentNVType() != NVTypes.NONE)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:707:
+        return optic;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:725:                                    override ItemBase Expansion_TryTurn
+ingOffAnyLightOrNVG(bool skipNVG = false)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:726:                                    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:727:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:728:
+auto trace = EXTrace.Start(EXTrace
+.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:729:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:730:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:731:
+ItemBase item = Expansion_GetAnyLi
+ghtOrNVG(false, skipNVG);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:732:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\Weapons\Firearms\Weapon_Base.c:733:
+if (item)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:70:                                              override void Expansion_Init()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:71:                                              {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:72:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:73:
+auto trace = EXTrace.Start(EXTrace.AI, this)
+;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:74:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:75:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:76:
+super.Expansion_Init();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:77:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:78:
+RegisterNetSyncVariableInt("m_eAI_GroupID",
+-1, int.MAX);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:165:                                             void SetGroup(eAIGroup group, bool autoDelet
+eFormerGroupIfEmpty = true, int groupMemberIndex = -1)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:166:                                             {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:167:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:168:
+auto trace = EXTrace.Start(EXTrace.AI, this
+, "" + group, "" + autoDeleteFormerGroupIfEmpty);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:169:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:170:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:171:
+if (!group && Expansion_IsAI())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:172:
+{
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:173:
+        EXError.Error(this, "Setting AI group to N
+ULL is NOT allowed");
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:275:                                             void eAI_SetFactionTypeID(int id)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:276:                                             {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:277:#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:278:
+auto trace = EXTrace.Start(EXTrace.AI, this
+, "" + eAIFaction.GetTypeByID(id), "" + id);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:279:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:280:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:281:
+int oldFactionTypeID = m_eAI_FactionTypeID;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:282:
+m_eAI_FactionTypeID = id;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:283:
+m_eAI_FactionTypeIDSynch = id;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:419:                                             Hive GetHive()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:420:                                             {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:421:
+#ifdef EXTRACE_DIAG
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:422:
+auto trace = EXTrace.Start(EXTrace.AI, this
+);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:423:
+#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:424:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:425:
+if (IsAI())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:426:
+        return null;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\DayZPlayerImplement.c:427:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:251: override void OnCommandSwimStart()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:252: {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:253:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:254:        auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:255:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:256:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:257:        super.OnCommandSwimStart();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:258:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:259:        if (g_Game.IsServer() && GetGroup())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:263: override void OnCommandSwimFinish()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:264: {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:265:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:266:        auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:267:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:268:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:269:        super.OnCommandSwimFinish();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:270:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:271:        //if (g_Game.IsServer() && GetGroup())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:290: void eAI_ApplyFactionModifiers(eAIFaction faction)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:291: {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:292:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:293:        auto trace = EXTrace.Start(EXTrace.AI,this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:294:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:295:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:296:        TIntArray modifiers = faction.GetModifiers();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:297:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:298:        if (!modifiers || !modifiers.Count())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:331: void eAI_RemoveFactionModifiers()
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:332: {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:333:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:334:        auto trace = EXTrace.Start(EXTrace.AI,this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:335:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:336:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:337:        if (!m_eAI_FactionModifiers)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:338:                                                      return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\4_World\DayZExpansion_AI\Entities\PlayerBase.c:339:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\Mission\MissionServer.c:133:    override void PlayerDisconnected( PlayerBase play
+er, PlayerIdentity identity, string uid )
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\Mission\MissionServer.c:134:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\Mission\MissionServer.c:135:#ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\Mission\MissionServer.c:136:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\Mission\MissionServer.c:137:#endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\Mission\MissionServer.c:138:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\Mission\MissionServer.c:139:                                                  super.PlayerDisconnected( player, identity, uid
+);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\Mission\MissionServer.c:140:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\Mission\MissionServer.c:141:                                                  eAI_GetPlayers();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:329:    eAIBase SpawnAI_Helper(PlayerBase leader, string
+loadout = "HumanLoadout.json")
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:330:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:331:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:332:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:333:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:334:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:335:                                                  auto group = leader.GetGroup();
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:336:                                                  if (group)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:337:                                                  {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:381:    eAIBase SpawnAI_Sentry(vector pos, string loadout
+ = "WestLoadout.json")
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:382:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:383:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:384:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:385:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:386:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:387:                                                  return SpawnAIEx(pos, loadout);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:388:    }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:389:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:390:    eAIBase SpawnAI_Patrol(vector pos, string loadout
+ = "HumanLoadout.json")
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:391:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:392:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:393:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:394:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:395:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:396:                                                  return SpawnAIEx(pos, loadout);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:397:    }
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:398:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:411:    void RPC_SpawnAI(PlayerIdentity sender, Object ta
+rget, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:412:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:413:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:414:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:415:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:416:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:417:                                                  int command;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:418:                                                  if (!ctx.Read(command)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:419:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:475:    void RPC_SpawnZombie(PlayerIdentity sender, Objec
+t target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:476:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:477:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:478:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:479:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:480:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:481:                                                  vector pos;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:482:                                                  if (!ctx.Read(pos)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:483:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:500:    void RPC_SpawnWolf(PlayerIdentity sender, Object
+target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:501:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:502:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:503:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:504:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:505:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:506:                                                  vector pos;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:507:                                                  if (!ctx.Read(pos)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:508:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:525:    void RPC_SpawnBear(PlayerIdentity sender, Object
+target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:526:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:527:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:528:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:529:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:530:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:531:                                                  vector pos;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:532:                                                  if (!ctx.Read(pos)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:533:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:551:    void RPC_ClearAllAI(PlayerIdentity sender, Object
+ target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:552:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:553:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:554:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:555:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:556:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:557:                                                  if (g_Game.IsMultiplayer())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:558:                                                  {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:559:
+if (!GetExpansionSettings().GetAI().IsAdmin(sen
+der))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:566:    void RPC_SetFaction(PlayerIdentity sender, Object
+ target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:567:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:568:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:569:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:570:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:571:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:572:                                                  int factionID;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:573:                                                  if (!ctx.Read(factionID)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:574:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:597:    void RPC_UnlimitedReload(PlayerIdentity sender, O
+bject target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:598:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:599:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:600:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:601:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:602:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:603:                                                  int unlimitedReload;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:604:                                                  if (!ctx.Read(unlimitedReload)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:605:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:657:    void RPC_ResetPathfinding(PlayerIdentity sender,
+Object target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:658:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:659:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:660:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:661:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:662:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:663:                                                  if (g_Game.IsMultiplayer())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:664:                                                  {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:665:
+if (!GetExpansionSettings().GetAI().IsAdmin(sen
+der))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:674:    void RPC_DebugObjects(PlayerIdentity sender, Obje
+ct target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:675:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:676:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:677:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:678:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:679:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:680:                                                  if (g_Game.IsMultiplayer())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:681:                                                  {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:682:
+if (!GetExpansionSettings().GetAI().IsAdmin(sen
+der))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:711:    void RPC_DebugDamage(PlayerIdentity sender, Objec
+t target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:712:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:713:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:714:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:715:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:716:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:717:                                                  if (g_Game.IsMultiplayer())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:718:                                                  {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:719:
+if (!GetExpansionSettings().GetAI().IsAdmin(sen
+der))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:734:    void RPC_ToggleFTO(PlayerIdentity sender, Object
+target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:735:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:736:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:737:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:738:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:739:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:740:                                                  if (g_Game.IsMultiplayer())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:741:                                                  {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:742:
+if (!GetExpansionSettings().GetAI().IsAdmin(sen
+der))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:751:    void RPC_SetDamageInOut(PlayerIdentity sender, Ob
+ject target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:752:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:753:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:754:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:755:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:756:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:757:                                                  int cmd;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:758:                                                  if (!ctx.Read(cmd)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:759:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:821:    void RPC_ReqFormRejoin(PlayerIdentity sender, Obj
+ect target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:822:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:823:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:824:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:825:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:826:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:827:                                                  int speed;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:828:                                                  if (!ctx.Read(speed)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:829:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:839:    void RPC_ReqFormStop(PlayerIdentity sender, Objec
+t target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:840:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:841:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:842:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:843:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:844:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:845:                                                  auto player = PlayerBase.ExpansionGetPlayerByIde
+ntity(sender);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:846:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:847:                                                  eAIGroup g = eAIGroup.GetGroupByLeader(player, f
+alse);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:852:    void RPC_ReqFormFlank(PlayerIdentity sender, Obje
+ct target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:853:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:854:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:855:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:856:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:857:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:858:                                                  int speed;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:859:                                                  if (!ctx.Read(speed)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:860:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:883:    void RPC_ReqFormRoam(PlayerIdentity sender, Objec
+t target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:884:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:885:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:886:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:887:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:888:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:889:                                                  int speed;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:890:                                                  if (!ctx.Read(speed)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:891:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:901:    void RPC_ReqFormationChange(PlayerIdentity sender
+, Object target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:902:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:903:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:904:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:905:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:906:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:907:                                                  int command;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:908:        if (!ctx.Read(command)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:909:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:957:    void RPC_SetFormationScale(PlayerIdentity sender,
+ Object target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:958:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:959:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:960:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:961:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:962:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:963:                                                  int command;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:964:        if (!ctx.Read(command)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:965:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:975:    void RPC_SetFormationLooseness(PlayerIdentity sen
+der, Object target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:976:    {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:977:    #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:978:                                                  auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:979:    #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:980:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:981:                                                  int command;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:982:        if (!ctx.Read(command)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:983:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1018:   void RPC_SetWaypoint(PlayerIdentity sender, Obje
+ct target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1019:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1020:   #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1021:                                                 auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1022:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1023:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1024:                                                 vector position;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1025:                                                 if (!ctx.Read(position))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1026:
+return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1046:   void RPC_ExportPatrol(PlayerIdentity sender, Obj
+ect target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1047:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1048:   #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1049:                                                 auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1050:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1051:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1052:                                                 if (g_Game.IsMultiplayer())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1053:                                                 {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1054:
+if (!GetExpansionSettings().GetAI().IsAdmin(se
+nder))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1086:   void RPC_ClearWaypoints(PlayerIdentity sender, O
+bject target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1087:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1088:   #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1089:                                                 auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1090:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1091:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1092:                                                 auto player = PlayerBase.ExpansionGetPlayerById
+entity(sender);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1093:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1094:                                                 eAIGroup g = eAIGroup.GetGroupByLeader(player,
+false);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1099:   void RPC_SetMovementSpeed(PlayerIdentity sender,
+ Object target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1100:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1101:   #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1102:                                                 auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1103:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1104:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1105:                                                 int speed;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1106:                                                 if (!ctx.Read(speed))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1107:
+return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1150:   void RPC_SetStance(PlayerIdentity sender, Object
+ target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1151:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1152:   #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1153:                                                 auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1154:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1155:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1156:                                                 int stance;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1157:                                                 if (!ctx.Read(stance))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1158:
+return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1176:   void RPC_DumpState(PlayerIdentity sender, Object
+ target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1177:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1178:   #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1179:                                                 auto trace = EXTrace.Start(EXTrace.AI, this, ""
+ + target);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1180:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1181:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1182:                                                 auto player = PlayerBase.ExpansionGetPlayerById
+entity(sender);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1183:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1184:                                                 TStringArray report;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1241:   void RPC_ForceWeaponResync(PlayerIdentity sender
+, Object target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1242:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1243:   #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1244:                                                 auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1245:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1246:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1247:                                                 if (g_Game.IsMultiplayer())
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1248:                                                 {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1249:
+if (!GetExpansionSettings().GetAI().IsAdmin(se
+nder))
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1506:   void RPC_SetLootingBehavior(PlayerIdentity sende
+r, Object target, ParamsReadContext ctx)
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1507:   {
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1508:   #ifdef EXTRACE
+> C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1509:                                                 auto trace = EXTrace.Start(EXTrace.AI, this);
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1510:   #endif
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1511:
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1512:                                                 int lootingBehavior;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1513:        if (!ctx.Read(lootingBehavior)) return;
+  C:\ExpansionResearch\@DayZ-Expansion-AI\addons\ai_scripts\5_Mission\DayZExpansion_AI\eAICommandManagerImpl.c:1514:
+
+
+PS C:\WINDOWS\System32>
